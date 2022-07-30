@@ -22,6 +22,7 @@ namespace Proiect.UI
             if (_game != null)
             {
                 _game.BeginNewGame();
+                _pauseMenu.gameObject.SetActive(false);
             }
         }
     
