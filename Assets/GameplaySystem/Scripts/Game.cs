@@ -14,15 +14,16 @@ namespace Proiect
     [SerializeField] Transform prefab;
     [SerializeField] private KeyCode createKey = KeyCode.C;
     [SerializeField] private KeyCode newGameKey = KeyCode.N;
-    [SerializeField] private Transform playerPos;
+    private Transform playerPos;
     public List<Transform> objects;
-    [SerializeField] protected Transform env;
+    protected Transform env;
 
 
         // Start is called before the first frame update
     void Start()
     {
-
+        playerPos = GameObject.FindGameObjectWithTag("Player").transform;
+        env = GameObject.FindGameObjectWithTag("Environment").transform;
     }
 
     private void Awake()
@@ -65,6 +66,7 @@ namespace Proiect
         }
 
         playerPos.position = new Vector3(0f, 1.8f, 0f);
+        playerPos.rotation = new Quaternion(0f, 0f, 0f, 0f);
         objects.Clear();
     }
     }
