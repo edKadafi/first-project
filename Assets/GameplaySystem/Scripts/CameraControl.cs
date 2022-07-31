@@ -26,7 +26,7 @@ public class CameraControl : MonoBehaviour
     {
         if (Input.GetAxis("Mouse ScrollWheel") != 0)
         {
-            Debug.Log(Input.GetAxis("Mouse ScrollWheel")*sensitivity-vcamera.m_Lens.FieldOfView);
+            //Debug.Log(Input.GetAxis("Mouse ScrollWheel")*sensitivity-vcamera.m_Lens.FieldOfView);
             if ((Input.GetAxis("Mouse ScrollWheel") * sensitivity)-vcamera.m_Lens.FieldOfView <=-5)
             {
                 if ((Input.GetAxis("Mouse ScrollWheel") * sensitivity)-vcamera.m_Lens.FieldOfView >= -80)

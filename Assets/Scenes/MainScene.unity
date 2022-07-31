@@ -270,7 +270,6 @@ GameObject:
   m_Component:
   - component: {fileID: 1750674051}
   - component: {fileID: 1750674053}
-  - component: {fileID: 1750674052}
   m_Layer: 0
   m_Name: GamePlay
   m_TagString: Untagged
@@ -292,19 +291,6 @@ Transform:
   m_Father: {fileID: 1397590838}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &1750674052
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1750674050}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ead6de54a0c23a9479abb732daded10f, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  _player: {fileID: 1152054365441329098, guid: 0cd15988171fde947be47c0540879492, type: 3}
 --- !u!114 &1750674053
 MonoBehaviour:
   m_ObjectHideFlags: 0

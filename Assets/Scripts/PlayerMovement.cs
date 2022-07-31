@@ -4,7 +4,7 @@ using System.Collections.Generic;
 using Unity.Mathematics;
 using UnityEngine;
 
-namespace Player
+namespace Proiect.Player
 {
     public class PlayerMovement : MonoBehaviour
     {
@@ -19,15 +19,14 @@ namespace Player
         private float turnSmoothTime = 0.1f;
 
         private float turnSmoothVelocity;
-        // Start is called before the first frame update
+        
         void Start()
         {
             var playerTransformRotation = PlayerTransform.rotation;
             playerTransformRotation.y = CameraOrient.rotation.y;
             PlayerTransform.rotation = playerTransformRotation;
         }
-
-        // Update is called once per frame
+        
         void Update()
         {
             MovePlayer();

@@ -755,10 +755,10 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 7471894568700661236}
-        m_TargetAssemblyTypeName: UnityEngine.GameObject, UnityEngine
-        m_MethodName: SetActive
-        m_Mode: 6
+      - m_Target: {fileID: 5566520967436825131}
+        m_TargetAssemblyTypeName: Proiect.UI.PauseMenu, Assembly-CSharp
+        m_MethodName: Back
+        m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
@@ -962,7 +962,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   _pauseMenu: {fileID: 7471894568700661236}
   _backButton: {fileID: 7471894568357805866}
-  _playerMovement: {fileID: 0}
 --- !u!1 &7471894569364030569
 GameObject:
   m_ObjectHideFlags: 0

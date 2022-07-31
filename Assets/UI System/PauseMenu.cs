@@ -1,6 +1,4 @@
-using System.Collections;
-using System.Collections.Generic;
-using Player;
+using Proiect.Player;
 using Proiect.System.SaveSystem;
 using UnityEngine;
 using UnityEngine.SceneManagement;
@@ -15,20 +13,23 @@ namespace Proiect.UI
         private Game _game;
         private PlayerMovement _playerMovement;
 
-        void Back()
+        public void Back()
         {
             _pauseMenu.gameObject.SetActive(false);
+            Debug.Log("[PauseMenu] State: "+_pauseMenu.activeSelf);
         }
 
         public void SaveGame()
         {
             SaveSystem.SavePlayer(_playerMovement);
+            SaveSystem.SaveEnvironment(_game.objects);
         }
 
         public void LoadGame()
         {
-            PlayerData playerData = SaveSystem.LoadPlayer();
-            
+            NewGame();
+            FindObjectOfType<MainPlayer>().LoadPlayer();
+            FindObjectOfType<Environment>().LoadEnvironment();
             
         }
         public void NewGame()

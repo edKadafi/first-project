@@ -12,10 +12,10 @@ public class MainPlayer : MonoBehaviour
     private PlayerData _playerData;
     private void Start()
     {
-        LoadPlayer();
+        
     }
 
-    private void LoadPlayer()
+    public void LoadPlayer()
     {
         _playerData = SaveSystem.LoadPlayer();
         if (_playerData != null)

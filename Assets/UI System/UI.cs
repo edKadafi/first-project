@@ -30,12 +30,12 @@ public class UI : MonoBehaviour
                 if (pmenu.gameObject.activeSelf == true)
                 {
                     pmenu.gameObject.SetActive(false);
-                    Debug.Log("State: "+pmenu.gameObject.activeSelf);
+                    Debug.Log("[UI] Pause Menu State: "+pmenu.gameObject.activeSelf);
                 }
                 else
                 {
                     pmenu.gameObject.SetActive(true);
-                    Debug.Log("State: "+pmenu.gameObject.activeSelf);
+                    Debug.Log("[UI] Pause Menu State: "+pmenu.gameObject.activeSelf);
                 }
             }
         }

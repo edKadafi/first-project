@@ -1,5 +1,5 @@
 using UnityEngine;
-namespace Player
+namespace Proiect.Player
 {
     public class Graph : MonoBehaviour
     {
