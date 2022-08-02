@@ -8,13 +8,11 @@ using UnityEngine;
 public class Environment : MonoBehaviour
 {
     private Game _game;
-    private Transform _environment;
     private EnvironmentData _environmentData;
 
     private void Start()
     {
         _game = FindObjectOfType<Game>();
-        _environment = GameObject.FindGameObjectWithTag("Environment").transform;
     }
 
     public void LoadEnvironment()
@@ -45,6 +43,6 @@ public class Environment : MonoBehaviour
             Destroy(aux);
         }
         
-        _game.CreateList(_game.objects);
+        _game.CreateList(_game.objects, _environmentData.colors);
     }
 }

@@ -50,12 +50,12 @@ namespace Proiect.Player
             Transform t = Instantiate(prefab);
             t.localPosition = playerPos.localPosition + Random.insideUnitSphere * 5f;
             t.localRotation = Random.rotation;
-            t.GetComponent<Renderer>().material.SetColor("_Color", Random.ColorHSV());
+            t.GetComponent<MeshRenderer>().material.SetColor("_Color", Random.ColorHSV());
             t.transform.parent = env.transform;
             objects.Add(t);
         }
 
-        public void CreateList(List<Transform> lista)
+        public void CreateList(List<Transform> lista, float[][] colors)
         {
             objects = new List<Transform>();
             env = GameObject.FindGameObjectWithTag("Environment").transform;
@@ -64,6 +64,8 @@ namespace Proiect.Player
                 Transform t = Instantiate(prefab);
                 t.position = lista[i].position;
                 t.rotation = lista[i].rotation;
+                t.GetComponent<MeshRenderer>().material.color =
+                    new Color(colors[i][3], colors[i][2], colors[i][1], colors[i][0]);
                 t.transform.parent = env.transform;
                 objects.Add(t);
             }
