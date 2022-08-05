@@ -8,7 +8,7 @@ using UnityEngine.PlayerLoop;
 
 public class MainPlayer : MonoBehaviour
 {
-    [SerializeField] private Transform _player;
+    public Transform _player;
     private PlayerData _playerData;
     private void Start()
     {
