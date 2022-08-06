@@ -17,8 +17,7 @@ namespace Proiect.GamePlay.Inanimates.Teleporter
         {
             Debug.Log("[TeleportTrigger] Entered volume.");
             Debug.Log(entered);
-            setEnteredTrue();
-            }
+        }
 
         private void OnTriggerStay(Collider other)
         {
@@ -27,6 +26,7 @@ namespace Proiect.GamePlay.Inanimates.Teleporter
                 Debug.Log(entered);
                 setEnteredTrue();
                 TeleporterHandler.Teleport(other.gameObject, teleportLocation);
+                setEnteredTrue();
             }
         }
 
