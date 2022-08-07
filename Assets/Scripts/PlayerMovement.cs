@@ -38,10 +38,6 @@ namespace Proiect.Player
             {
                 JumpPlayer();
             }
-            else
-            {
-                MovePlayer();
-            }
         }
 
         void MovePlayer()
@@ -64,6 +60,11 @@ namespace Proiect.Player
                 body.velocity += velocity*Time.deltaTime;
             }
             
+        }
+
+        private void FixedUpdate()
+        {
+            MovePlayer();
         }
 
         void JumpPlayer()

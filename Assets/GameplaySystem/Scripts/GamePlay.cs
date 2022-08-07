@@ -1,6 +1,7 @@
 using System;
 using System.Collections;
 using System.Collections.Generic;
+using Proiect.Player;
 using UnityEngine;
 
 public class GamePlay : MonoBehaviour
@@ -16,6 +17,7 @@ public class GamePlay : MonoBehaviour
         Instantiate(game);
         game.tag = "Game";
         Instantiate(player);
+        PlayerManager.Init(player.GetComponent<MainPlayer>());
         player.tag = "Player";
     }
 }
