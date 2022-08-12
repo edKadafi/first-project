@@ -4,20 +4,38 @@ using System.Collections.Generic;
 using Proiect.Player;
 using UnityEngine;
 
-public class GamePlay : MonoBehaviour
+namespace Proiect.GamePlay
 {
-    [SerializeField] private GameObject game;
-    [SerializeField] private GameObject environment;
-    [SerializeField] private GameObject player;
-
-    private void Start()
+    public class GamePlay : MonoBehaviour
     {
-        Instantiate(environment);
-        environment.tag = "Environment";
-        Instantiate(game);
-        game.tag = "Game";
-        Instantiate(player);
-        PlayerManager.Init(player.GetComponent<MainPlayer>());
-        player.tag = "Player";
+        [SerializeField] private GameObject game;
+        [SerializeField] private GameObject environment;
+        [SerializeField] private GameObject player;
+        [SerializeField] private UI.UI ui;
+
+        private void Start()
+        {
+            GameStateManager.Initialize();
+            if (GameStateManager.GetCurrentState() != null)
+            {
+                Debug.Log("[GameStateManager] Game State = "+ GameStateManager.GetCurrentState().GetName());
+            }
+            GameStateManager.InitializeState(2);
+            if (GameStateManager.GetCurrentState() != null)
+            {
+                Debug.Log("[GameStateManager] Game State = "+ GameStateManager.GetCurrentState().GetName());
+            }
+            
+            Instantiate(environment);
+            environment.tag = "Environment";
+            Instantiate(game);
+            game.tag = "Game";
+            Instantiate(player);
+            PlayerManager.Init(player.GetComponent<MainPlayer>());
+            player.tag = "Player";
+            Instantiate(ui);
+            DontDestroyOnLoad(ui);
+        }
     }
 }
+

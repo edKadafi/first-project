@@ -1,43 +1,52 @@
 using System;
 using System.Collections;
 using System.Collections.Generic;
+using Proiect.GamePlay;
 using UnityEngine;
 using UnityEngine.EventSystems;
 
-public class UI : MonoBehaviour
+namespace Proiect.UI
 {
-    [SerializeField] private Transform pauseMenu;
-    private Transform pmenu;
-    private void Awake()
+    public class UI : MonoBehaviour
     {
-        if (FindObjectOfType<EventSystem>() == null)
+        [SerializeField] private Transform pauseMenu;
+        private Transform pmenu;
+        private void Awake()
         {
-            var eventSystem = new GameObject("EventSystem", typeof(EventSystem), typeof(StandaloneInputModule));
-        }
-        pmenu = Instantiate(pauseMenu);
-        pmenu.SetParent(this.transform);
-        pmenu.gameObject.SetActive(false);
-        Debug.Log("Awake: " + pmenu.gameObject.activeSelf);
-    }
-    
-    void Update()
-    {
-        if (Input.GetKeyDown(KeyCode.Escape))
-        {
-                
-            if (pmenu != null)
+            if (FindObjectOfType<EventSystem>() == null)
             {
-                if (pmenu.gameObject.activeSelf == true)
+                var eventSystem = new GameObject("EventSystem", typeof(EventSystem), typeof(StandaloneInputModule));
+            }
+            pmenu = Instantiate(pauseMenu);
+            pmenu.SetParent(this.transform);
+            pmenu.gameObject.SetActive(false);
+            Debug.Log("Awake: " + pmenu.gameObject.activeSelf);
+        }
+    
+        void Update()
+        {
+            if (Input.GetKeyDown(KeyCode.Escape))
+            {
+                
+                if (pmenu != null)
                 {
-                    pmenu.gameObject.SetActive(false);
-                    Debug.Log("[UI] Pause Menu State: "+pmenu.gameObject.activeSelf);
-                }
-                else
-                {
-                    pmenu.gameObject.SetActive(true);
-                    Debug.Log("[UI] Pause Menu State: "+pmenu.gameObject.activeSelf);
+                    if (pmenu.gameObject.activeSelf == true)
+                    {
+                        pmenu.gameObject.SetActive(false);
+                        GameStateManager.ChangeState(2);
+                        Debug.Log("[GameStateManager] Game State = "+GameStateManager.GetCurrentState().GetName());
+                        Debug.Log("[UI] Pause Menu State: "+pmenu.gameObject.activeSelf);
+                    }
+                    else
+                    {
+                        pmenu.gameObject.SetActive(true);
+                        GameStateManager.ChangeState(1);
+                        Debug.Log("[GameStateManager] Game State = "+GameStateManager.GetCurrentState().GetName());
+                        Debug.Log("[UI] Pause Menu State: "+pmenu.gameObject.activeSelf);
+                    }
                 }
             }
         }
     }
 }
+

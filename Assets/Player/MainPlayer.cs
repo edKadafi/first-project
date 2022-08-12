@@ -81,6 +81,11 @@ namespace Proiect.Player
             }
             Debug.Log("[MainPlayer] New health:"+healthPoints);
         }
+
+        public float GetHp()
+        {
+            return healthPoints;
+        }
         
     }
 }
