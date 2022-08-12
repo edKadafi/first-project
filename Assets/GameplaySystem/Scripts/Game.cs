@@ -18,6 +18,8 @@ namespace Proiect.Player
         private Transform playerPos;
         public List<Transform> objects;
         protected Transform env;
+        private KeyCode dmgPlayer = KeyCode.K;
+        private KeyCode healPlayer = KeyCode.H;
 
 
             // Start is called before the first frame update
@@ -44,6 +46,14 @@ namespace Proiect.Player
                 BeginNewGame();
             }
 
+            if (Input.GetKeyDown(dmgPlayer))
+            {
+                PlayerManager.DamagePlayer(5);
+            }
+            if (Input.GetKeyDown(healPlayer))
+            {
+                PlayerManager.HealPlayer(5);
+            }
         }
 
         void CreateObject()

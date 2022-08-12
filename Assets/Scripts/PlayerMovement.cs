@@ -34,18 +34,17 @@ namespace Proiect.Player
         
         void Update()
         {
+            body.velocity += new Vector3(0f, -9.81f*3, 0f)*Time.deltaTime;
             if (Input.GetKeyDown(jumpKey))
             {
                 JumpPlayer();
             }
-            else
-            {
-                MovePlayer();
-            }
+
         }
 
         void MovePlayer()
         {
+            
             Vector2 playerInput;
             Vector3 direction;
             playerInput.x = Input.GetAxis("Horizontal");
@@ -66,9 +65,13 @@ namespace Proiect.Player
             
         }
 
+        private void FixedUpdate()
+        {
+            MovePlayer();
+        }
+
         void JumpPlayer()
         {
-            Debug.Log("[PlayerMovement] Jump");
             body.velocity += movementSpeed*(Vector3.up/2);
         }
     }
