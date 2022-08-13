@@ -37,6 +37,8 @@ namespace Proiect.System.SaveSystem
                 {
                     playerData = formatter.Deserialize(fs) as PlayerData;
                     fs.Close();
+                    Debug.Log("Pos: " + playerData.position[0] + "-" + playerData.position[1] + "-" +
+                              playerData.position[2]);
                     return playerData;
                 }
             }

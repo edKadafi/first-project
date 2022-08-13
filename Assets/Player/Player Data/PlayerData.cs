@@ -9,9 +9,11 @@ public class PlayerData
 {
     public float[] position;
     public float[] rotation;
+    public float health;
 
     public PlayerData(PlayerMovement playerMovement)
     {
+        health = PlayerManager.Player.GetHp();
         position = new float[3];
         position[0] = playerMovement.transform.position.x;
         position[1] = playerMovement.transform.position.y;

@@ -20,14 +20,14 @@ namespace Proiect.UI
 
         public void SaveGame()
         {
-            SaveSystem.SavePlayer(_playerMovement);
+            SaveSystem.SavePlayer(PlayerManager.Player.GetComponent<PlayerMovement>());
             SaveSystem.SaveEnvironment(_game.objects);
         }
 
         public void LoadGame()
         {
             NewGame();
-            FindObjectOfType<MainPlayer>().LoadPlayer();
+            PlayerManager.Player.LoadPlayer();
             FindObjectOfType<Environment>().LoadEnvironment();
             
         }
