@@ -8,8 +8,8 @@ namespace Proiect.GamePlay.Inanimates.Cubes
     {
         public static void paintPlayer(GameObject cube, GameObject player)
         {
-            var cylinder = player.transform.Find("Peon");
-            cylinder.GetComponent<MeshRenderer>().material.color = cube.GetComponent<MeshRenderer>().material.color;
+            var cylinder = player.GetComponentInChildren<SkinnedMeshRenderer>();
+            cylinder.GetComponent<SkinnedMeshRenderer>().material.color = cube.GetComponent<MeshRenderer>().material.color;
         }
     }
 }
