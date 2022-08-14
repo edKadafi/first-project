@@ -90,7 +90,16 @@ namespace Proiect.Player
         {
             return healthPoints;
         }
-        
+
+        public float[] GetColor()
+        {
+            var color = new float[4];
+            color[0] = _player.GetComponentInChildren<SkinnedMeshRenderer>().material.color.r;
+            color[1] = _player.GetComponentInChildren<SkinnedMeshRenderer>().material.color.g;
+            color[2] = _player.GetComponentInChildren<SkinnedMeshRenderer>().material.color.b;
+            color[3] = _player.GetComponentInChildren<SkinnedMeshRenderer>().material.color.a;
+            return color;
+        }
     }
 }
 

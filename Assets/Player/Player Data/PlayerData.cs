@@ -10,6 +10,7 @@ public class PlayerData
     public float[] position;
     public float[] rotation;
     public float health;
+    public float[] color;
 
     public PlayerData(PlayerMovement playerMovement)
     {
