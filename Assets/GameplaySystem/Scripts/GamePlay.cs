@@ -30,11 +30,16 @@ namespace Proiect.GamePlay
             environment.tag = "Environment";
             Instantiate(game);
             game.tag = "Game";
+            InstatiatePlayer();
+            Instantiate(ui);
+            DontDestroyOnLoad(ui);
+        }
+
+        public void InstatiatePlayer()
+        {
             Instantiate(player);
             PlayerManager.Init(player.GetComponent<MainPlayer>());
             player.tag = "Player";
-            Instantiate(ui);
-            DontDestroyOnLoad(ui);
         }
     }
 }
