@@ -893,7 +893,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   PlayerTransform: {fileID: 1152054365441329098}
   CameraOrient: {fileID: 1874657164}
-  movementSpeed: 38.2
+  movementSpeed: 50
 --- !u!143 &1152054365441329096
 CharacterController:
   m_ObjectHideFlags: 0
