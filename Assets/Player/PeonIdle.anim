@@ -1328,7 +1328,7 @@ AnimationClip:
       m_Curve:
       - serializedVersion: 3
         time: 0
-        value: {x: 0, y: -0.6666667, z: 0}
+        value: {x: 0, y: -1, z: 0}
         inSlope: {x: 0, y: 0, z: 0}
         outSlope: {x: 0, y: 0, z: 0}
         tangentMode: 0
@@ -1337,7 +1337,7 @@ AnimationClip:
         outWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334}
       - serializedVersion: 3
         time: 1
-        value: {x: -0, y: -0.6893334, z: -0.01}
+        value: {x: 0, y: -1.022667, z: -0.01}
         inSlope: {x: 0, y: 0, z: 0}
         outSlope: {x: 0, y: 0, z: 0}
         tangentMode: 0
@@ -1346,7 +1346,7 @@ AnimationClip:
         outWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334}
       - serializedVersion: 3
         time: 2
-        value: {x: 0, y: -0.6666667, z: 0}
+        value: {x: 0, y: -1, z: 0}
         inSlope: {x: 0, y: 0, z: 0}
         outSlope: {x: 0, y: 0, z: 0}
         tangentMode: 0
@@ -4526,7 +4526,7 @@ AnimationClip:
         outWeight: 0.33333334
       - serializedVersion: 3
         time: 1
-        value: -0
+        value: 0
         inSlope: 0
         outSlope: 0
         tangentMode: 136
@@ -4554,7 +4554,7 @@ AnimationClip:
       m_Curve:
       - serializedVersion: 3
         time: 0
-        value: -0.6666667
+        value: -1
         inSlope: 0
         outSlope: 0
         tangentMode: 136
@@ -4563,7 +4563,7 @@ AnimationClip:
         outWeight: 0.33333334
       - serializedVersion: 3
         time: 1
-        value: -0.6893334
+        value: -1.022667
         inSlope: 0
         outSlope: 0
         tangentMode: 136
@@ -4572,7 +4572,7 @@ AnimationClip:
         outWeight: 0.33333334
       - serializedVersion: 3
         time: 2
-        value: -0.6666667
+        value: -1
         inSlope: 0
         outSlope: 0
         tangentMode: 136
@@ -12071,7 +12071,7 @@ AnimationClip:
       m_PostInfinity: 2
       m_RotationOrder: 4
     attribute: m_LocalEulerAngles.z
-    path: jnt_org/global_C0_jnt_org/global_C0_0_jnt/spine_C0_0_jnt/spine_C0_1_jnt/spine_C0_2_jnt/shoulder_R0_shoulder_jnt/arm_R0_0_jnt/arm_R0_1_jnt/arm_R0_2_jnt/arm_R0_end_jnt/finger_R0_0_jnt/finger_R0_1_jnt
+    path: jnt_org/global_C0_jnt_org/global_C0_0_jnt/spine_C0_0_jnt/spine_C0_1_jnt/spine_C0_2_jnt/shoulder_R0_shoulder_jnt/arm_R0_0_jnt/arm_R0_1_jnt/arm_R0_2_jnt/arm_R0_end_jnt/finger_R0_0_jnt
     classID: 4
     script: {fileID: 0}
   - curve:
@@ -12081,7 +12081,7 @@ AnimationClip:
       m_PostInfinity: 2
       m_RotationOrder: 4
     attribute: m_LocalEulerAngles.y
-    path: jnt_org/global_C0_jnt_org/global_C0_0_jnt/spine_C0_0_jnt/spine_C0_1_jnt/spine_C0_2_jnt/shoulder_R0_shoulder_jnt/arm_R0_0_jnt/arm_R0_1_jnt/arm_R0_2_jnt/arm_R0_end_jnt/finger_R0_0_jnt/finger_R0_1_jnt
+    path: jnt_org/global_C0_jnt_org/global_C0_0_jnt/spine_C0_0_jnt/spine_C0_1_jnt/spine_C0_2_jnt/shoulder_R0_shoulder_jnt/arm_R0_0_jnt/arm_R0_1_jnt/arm_R0_2_jnt/arm_R0_end_jnt/finger_R0_0_jnt
     classID: 4
     script: {fileID: 0}
   - curve:
@@ -12091,337 +12091,7 @@ AnimationClip:
       m_PostInfinity: 2
       m_RotationOrder: 4
     attribute: m_LocalEulerAngles.x
-    path: jnt_org/global_C0_jnt_org/global_C0_0_jnt/spine_C0_0_jnt/spine_C0_1_jnt/spine_C0_2_jnt/shoulder_R0_shoulder_jnt/arm_R0_0_jnt/arm_R0_1_jnt/arm_R0_2_jnt/arm_R0_end_jnt/finger_R0_0_jnt/finger_R0_1_jnt
-    classID: 4
-    script: {fileID: 0}
-  - curve:
-      serializedVersion: 2
-      m_Curve: []
-      m_PreInfinity: 2
-      m_PostInfinity: 2
-      m_RotationOrder: 4
-    attribute: m_LocalEulerAngles.z
-    path: jnt_org/global_C0_jnt_org/global_C0_0_jnt/spine_C0_0_jnt/leg_R0_0_jnt/leg_R0_1_jnt
-    classID: 4
-    script: {fileID: 0}
-  - curve:
-      serializedVersion: 2
-      m_Curve: []
-      m_PreInfinity: 2
-      m_PostInfinity: 2
-      m_RotationOrder: 4
-    attribute: m_LocalEulerAngles.y
-    path: jnt_org/global_C0_jnt_org/global_C0_0_jnt/spine_C0_0_jnt/leg_R0_0_jnt/leg_R0_1_jnt
-    classID: 4
-    script: {fileID: 0}
-  - curve:
-      serializedVersion: 2
-      m_Curve: []
-      m_PreInfinity: 2
-      m_PostInfinity: 2
-      m_RotationOrder: 4
-    attribute: m_LocalEulerAngles.x
-    path: jnt_org/global_C0_jnt_org/global_C0_0_jnt/spine_C0_0_jnt/leg_R0_0_jnt/leg_R0_1_jnt
-    classID: 4
-    script: {fileID: 0}
-  - curve:
-      serializedVersion: 2
-      m_Curve: []
-      m_PreInfinity: 2
-      m_PostInfinity: 2
-      m_RotationOrder: 4
-    attribute: m_LocalEulerAngles.z
-    path: jnt_org/global_C0_jnt_org/global_C0_0_jnt/spine_C0_0_jnt/leg_L0_0_jnt/leg_L0_1_jnt/leg_L0_2_jnt
-    classID: 4
-    script: {fileID: 0}
-  - curve:
-      serializedVersion: 2
-      m_Curve: []
-      m_PreInfinity: 2
-      m_PostInfinity: 2
-      m_RotationOrder: 4
-    attribute: m_LocalEulerAngles.y
-    path: jnt_org/global_C0_jnt_org/global_C0_0_jnt/spine_C0_0_jnt/leg_L0_0_jnt/leg_L0_1_jnt/leg_L0_2_jnt
-    classID: 4
-    script: {fileID: 0}
-  - curve:
-      serializedVersion: 2
-      m_Curve: []
-      m_PreInfinity: 2
-      m_PostInfinity: 2
-      m_RotationOrder: 4
-    attribute: m_LocalEulerAngles.x
-    path: jnt_org/global_C0_jnt_org/global_C0_0_jnt/spine_C0_0_jnt/leg_L0_0_jnt/leg_L0_1_jnt/leg_L0_2_jnt
-    classID: 4
-    script: {fileID: 0}
-  - curve:
-      serializedVersion: 2
-      m_Curve: []
-      m_PreInfinity: 2
-      m_PostInfinity: 2
-      m_RotationOrder: 4
-    attribute: m_LocalEulerAngles.z
-    path: jnt_org/global_C0_jnt_org/global_C0_0_jnt/spine_C0_0_jnt/spine_C0_1_jnt/spine_C0_2_jnt/shoulder_L0_shoulder_jnt/arm_L0_0_jnt/arm_L0_1_jnt/arm_L0_2_jnt/arm_L0_end_jnt/finger_L1_0_jnt/finger_L1_1_jnt
-    classID: 4
-    script: {fileID: 0}
-  - curve:
-      serializedVersion: 2
-      m_Curve: []
-      m_PreInfinity: 2
-      m_PostInfinity: 2
-      m_RotationOrder: 4
-    attribute: m_LocalEulerAngles.y
-    path: jnt_org/global_C0_jnt_org/global_C0_0_jnt/spine_C0_0_jnt/spine_C0_1_jnt/spine_C0_2_jnt/shoulder_L0_shoulder_jnt/arm_L0_0_jnt/arm_L0_1_jnt/arm_L0_2_jnt/arm_L0_end_jnt/finger_L1_0_jnt/finger_L1_1_jnt
-    classID: 4
-    script: {fileID: 0}
-  - curve:
-      serializedVersion: 2
-      m_Curve: []
-      m_PreInfinity: 2
-      m_PostInfinity: 2
-      m_RotationOrder: 4
-    attribute: m_LocalEulerAngles.x
-    path: jnt_org/global_C0_jnt_org/global_C0_0_jnt/spine_C0_0_jnt/spine_C0_1_jnt/spine_C0_2_jnt/shoulder_L0_shoulder_jnt/arm_L0_0_jnt/arm_L0_1_jnt/arm_L0_2_jnt/arm_L0_end_jnt/finger_L1_0_jnt/finger_L1_1_jnt
-    classID: 4
-    script: {fileID: 0}
-  - curve:
-      serializedVersion: 2
-      m_Curve: []
-      m_PreInfinity: 2
-      m_PostInfinity: 2
-      m_RotationOrder: 4
-    attribute: m_LocalEulerAngles.z
-    path: jnt_org/global_C0_jnt_org/global_C0_0_jnt/spine_C0_0_jnt/spine_C0_1_jnt/spine_C0_2_jnt/shoulder_L0_shoulder_jnt/arm_L0_0_jnt/arm_L0_1_jnt/arm_L0_2_jnt/arm_L0_end_jnt/finger_L0_0_jnt
-    classID: 4
-    script: {fileID: 0}
-  - curve:
-      serializedVersion: 2
-      m_Curve: []
-      m_PreInfinity: 2
-      m_PostInfinity: 2
-      m_RotationOrder: 4
-    attribute: m_LocalEulerAngles.y
-    path: jnt_org/global_C0_jnt_org/global_C0_0_jnt/spine_C0_0_jnt/spine_C0_1_jnt/spine_C0_2_jnt/shoulder_L0_shoulder_jnt/arm_L0_0_jnt/arm_L0_1_jnt/arm_L0_2_jnt/arm_L0_end_jnt/finger_L0_0_jnt
-    classID: 4
-    script: {fileID: 0}
-  - curve:
-      serializedVersion: 2
-      m_Curve: []
-      m_PreInfinity: 2
-      m_PostInfinity: 2
-      m_RotationOrder: 4
-    attribute: m_LocalEulerAngles.x
-    path: jnt_org/global_C0_jnt_org/global_C0_0_jnt/spine_C0_0_jnt/spine_C0_1_jnt/spine_C0_2_jnt/shoulder_L0_shoulder_jnt/arm_L0_0_jnt/arm_L0_1_jnt/arm_L0_2_jnt/arm_L0_end_jnt/finger_L0_0_jnt
-    classID: 4
-    script: {fileID: 0}
-  - curve:
-      serializedVersion: 2
-      m_Curve: []
-      m_PreInfinity: 2
-      m_PostInfinity: 2
-      m_RotationOrder: 4
-    attribute: m_LocalEulerAngles.z
-    path: jnt_org/global_C0_jnt_org/global_C0_0_jnt/spine_C0_0_jnt/leg_R0_0_jnt/leg_R0_1_jnt/leg_R0_2_jnt/leg_R0_end_jnt
-    classID: 4
-    script: {fileID: 0}
-  - curve:
-      serializedVersion: 2
-      m_Curve: []
-      m_PreInfinity: 2
-      m_PostInfinity: 2
-      m_RotationOrder: 4
-    attribute: m_LocalEulerAngles.y
-    path: jnt_org/global_C0_jnt_org/global_C0_0_jnt/spine_C0_0_jnt/leg_R0_0_jnt/leg_R0_1_jnt/leg_R0_2_jnt/leg_R0_end_jnt
-    classID: 4
-    script: {fileID: 0}
-  - curve:
-      serializedVersion: 2
-      m_Curve: []
-      m_PreInfinity: 2
-      m_PostInfinity: 2
-      m_RotationOrder: 4
-    attribute: m_LocalEulerAngles.x
-    path: jnt_org/global_C0_jnt_org/global_C0_0_jnt/spine_C0_0_jnt/leg_R0_0_jnt/leg_R0_1_jnt/leg_R0_2_jnt/leg_R0_end_jnt
-    classID: 4
-    script: {fileID: 0}
-  - curve:
-      serializedVersion: 2
-      m_Curve: []
-      m_PreInfinity: 2
-      m_PostInfinity: 2
-      m_RotationOrder: 4
-    attribute: m_LocalEulerAngles.z
-    path: jnt_org/global_C0_jnt_org/global_C0_0_jnt/spine_C0_0_jnt/spine_C0_1_jnt/spine_C0_2_jnt/shoulder_R0_shoulder_jnt/arm_R0_0_jnt/arm_R0_1_jnt/arm_R0_2_jnt/arm_R0_end_jnt/finger_R1_0_jnt/finger_R1_1_jnt
-    classID: 4
-    script: {fileID: 0}
-  - curve:
-      serializedVersion: 2
-      m_Curve: []
-      m_PreInfinity: 2
-      m_PostInfinity: 2
-      m_RotationOrder: 4
-    attribute: m_LocalEulerAngles.y
-    path: jnt_org/global_C0_jnt_org/global_C0_0_jnt/spine_C0_0_jnt/spine_C0_1_jnt/spine_C0_2_jnt/shoulder_R0_shoulder_jnt/arm_R0_0_jnt/arm_R0_1_jnt/arm_R0_2_jnt/arm_R0_end_jnt/finger_R1_0_jnt/finger_R1_1_jnt
-    classID: 4
-    script: {fileID: 0}
-  - curve:
-      serializedVersion: 2
-      m_Curve: []
-      m_PreInfinity: 2
-      m_PostInfinity: 2
-      m_RotationOrder: 4
-    attribute: m_LocalEulerAngles.x
-    path: jnt_org/global_C0_jnt_org/global_C0_0_jnt/spine_C0_0_jnt/spine_C0_1_jnt/spine_C0_2_jnt/shoulder_R0_shoulder_jnt/arm_R0_0_jnt/arm_R0_1_jnt/arm_R0_2_jnt/arm_R0_end_jnt/finger_R1_0_jnt/finger_R1_1_jnt
-    classID: 4
-    script: {fileID: 0}
-  - curve:
-      serializedVersion: 2
-      m_Curve: []
-      m_PreInfinity: 2
-      m_PostInfinity: 2
-      m_RotationOrder: 4
-    attribute: m_LocalEulerAngles.z
-    path: jnt_org/global_C0_jnt_org/global_C0_0_jnt/spine_C0_0_jnt/spine_C0_1_jnt/spine_C0_2_jnt/head_C0_0_jnt
-    classID: 4
-    script: {fileID: 0}
-  - curve:
-      serializedVersion: 2
-      m_Curve: []
-      m_PreInfinity: 2
-      m_PostInfinity: 2
-      m_RotationOrder: 4
-    attribute: m_LocalEulerAngles.y
-    path: jnt_org/global_C0_jnt_org/global_C0_0_jnt/spine_C0_0_jnt/spine_C0_1_jnt/spine_C0_2_jnt/head_C0_0_jnt
-    classID: 4
-    script: {fileID: 0}
-  - curve:
-      serializedVersion: 2
-      m_Curve: []
-      m_PreInfinity: 2
-      m_PostInfinity: 2
-      m_RotationOrder: 4
-    attribute: m_LocalEulerAngles.x
-    path: jnt_org/global_C0_jnt_org/global_C0_0_jnt/spine_C0_0_jnt/spine_C0_1_jnt/spine_C0_2_jnt/head_C0_0_jnt
-    classID: 4
-    script: {fileID: 0}
-  - curve:
-      serializedVersion: 2
-      m_Curve: []
-      m_PreInfinity: 2
-      m_PostInfinity: 2
-      m_RotationOrder: 4
-    attribute: m_LocalEulerAngles.z
-    path: jnt_org/global_C0_jnt_org/global_C0_0_jnt/spine_C0_0_jnt/spine_C0_1_jnt/spine_C0_2_jnt/head_C0_0_jnt/bangLarge_C0_0_jnt/bangLarge_C0_1_jnt
-    classID: 4
-    script: {fileID: 0}
-  - curve:
-      serializedVersion: 2
-      m_Curve: []
-      m_PreInfinity: 2
-      m_PostInfinity: 2
-      m_RotationOrder: 4
-    attribute: m_LocalEulerAngles.y
-    path: jnt_org/global_C0_jnt_org/global_C0_0_jnt/spine_C0_0_jnt/spine_C0_1_jnt/spine_C0_2_jnt/head_C0_0_jnt/bangLarge_C0_0_jnt/bangLarge_C0_1_jnt
-    classID: 4
-    script: {fileID: 0}
-  - curve:
-      serializedVersion: 2
-      m_Curve: []
-      m_PreInfinity: 2
-      m_PostInfinity: 2
-      m_RotationOrder: 4
-    attribute: m_LocalEulerAngles.x
-    path: jnt_org/global_C0_jnt_org/global_C0_0_jnt/spine_C0_0_jnt/spine_C0_1_jnt/spine_C0_2_jnt/head_C0_0_jnt/bangLarge_C0_0_jnt/bangLarge_C0_1_jnt
-    classID: 4
-    script: {fileID: 0}
-  - curve:
-      serializedVersion: 2
-      m_Curve: []
-      m_PreInfinity: 2
-      m_PostInfinity: 2
-      m_RotationOrder: 4
-    attribute: m_LocalEulerAngles.z
-    path: jnt_org/global_C0_jnt_org/global_C0_0_jnt/spine_C0_0_jnt/spine_C0_1_jnt/spine_C0_2_jnt/shoulder_R0_shoulder_jnt/arm_R0_0_jnt/arm_R0_1_jnt/arm_R0_2_jnt/arm_R0_end_jnt/thumb_R0_0_jnt
-    classID: 4
-    script: {fileID: 0}
-  - curve:
-      serializedVersion: 2
-      m_Curve: []
-      m_PreInfinity: 2
-      m_PostInfinity: 2
-      m_RotationOrder: 4
-    attribute: m_LocalEulerAngles.y
-    path: jnt_org/global_C0_jnt_org/global_C0_0_jnt/spine_C0_0_jnt/spine_C0_1_jnt/spine_C0_2_jnt/shoulder_R0_shoulder_jnt/arm_R0_0_jnt/arm_R0_1_jnt/arm_R0_2_jnt/arm_R0_end_jnt/thumb_R0_0_jnt
-    classID: 4
-    script: {fileID: 0}
-  - curve:
-      serializedVersion: 2
-      m_Curve: []
-      m_PreInfinity: 2
-      m_PostInfinity: 2
-      m_RotationOrder: 4
-    attribute: m_LocalEulerAngles.x
-    path: jnt_org/global_C0_jnt_org/global_C0_0_jnt/spine_C0_0_jnt/spine_C0_1_jnt/spine_C0_2_jnt/shoulder_R0_shoulder_jnt/arm_R0_0_jnt/arm_R0_1_jnt/arm_R0_2_jnt/arm_R0_end_jnt/thumb_R0_0_jnt
-    classID: 4
-    script: {fileID: 0}
-  - curve:
-      serializedVersion: 2
-      m_Curve: []
-      m_PreInfinity: 2
-      m_PostInfinity: 2
-      m_RotationOrder: 4
-    attribute: m_LocalEulerAngles.z
-    path: Peon_eye_ball (1)
-    classID: 4
-    script: {fileID: 0}
-  - curve:
-      serializedVersion: 2
-      m_Curve: []
-      m_PreInfinity: 2
-      m_PostInfinity: 2
-      m_RotationOrder: 4
-    attribute: m_LocalEulerAngles.y
-    path: Peon_eye_ball (1)
-    classID: 4
-    script: {fileID: 0}
-  - curve:
-      serializedVersion: 2
-      m_Curve: []
-      m_PreInfinity: 2
-      m_PostInfinity: 2
-      m_RotationOrder: 4
-    attribute: m_LocalEulerAngles.x
-    path: Peon_eye_ball (1)
-    classID: 4
-    script: {fileID: 0}
-  - curve:
-      serializedVersion: 2
-      m_Curve: []
-      m_PreInfinity: 2
-      m_PostInfinity: 2
-      m_RotationOrder: 4
-    attribute: m_LocalEulerAngles.z
-    path: jnt_org/global_C0_jnt_org/global_C0_0_jnt/spine_C0_0_jnt/leg_L0_0_jnt
-    classID: 4
-    script: {fileID: 0}
-  - curve:
-      serializedVersion: 2
-      m_Curve: []
-      m_PreInfinity: 2
-      m_PostInfinity: 2
-      m_RotationOrder: 4
-    attribute: m_LocalEulerAngles.y
-    path: jnt_org/global_C0_jnt_org/global_C0_0_jnt/spine_C0_0_jnt/leg_L0_0_jnt
-    classID: 4
-    script: {fileID: 0}
-  - curve:
-      serializedVersion: 2
-      m_Curve: []
-      m_PreInfinity: 2
-      m_PostInfinity: 2
-      m_RotationOrder: 4
-    attribute: m_LocalEulerAngles.x
-    path: jnt_org/global_C0_jnt_org/global_C0_0_jnt/spine_C0_0_jnt/leg_L0_0_jnt
+    path: jnt_org/global_C0_jnt_org/global_C0_0_jnt/spine_C0_0_jnt/spine_C0_1_jnt/spine_C0_2_jnt/shoulder_R0_shoulder_jnt/arm_R0_0_jnt/arm_R0_1_jnt/arm_R0_2_jnt/arm_R0_end_jnt/finger_R0_0_jnt
     classID: 4
     script: {fileID: 0}
   - curve:
@@ -12461,246 +12131,6 @@ AnimationClip:
       m_PostInfinity: 2
       m_RotationOrder: 4
     attribute: m_LocalEulerAngles.z
-    path: jnt_org/global_C0_jnt_org/global_C0_0_jnt/spine_C0_0_jnt/spine_C0_1_jnt/spine_C0_2_jnt/shoulder_L0_shoulder_jnt
-    classID: 4
-    script: {fileID: 0}
-  - curve:
-      serializedVersion: 2
-      m_Curve: []
-      m_PreInfinity: 2
-      m_PostInfinity: 2
-      m_RotationOrder: 4
-    attribute: m_LocalEulerAngles.y
-    path: jnt_org/global_C0_jnt_org/global_C0_0_jnt/spine_C0_0_jnt/spine_C0_1_jnt/spine_C0_2_jnt/shoulder_L0_shoulder_jnt
-    classID: 4
-    script: {fileID: 0}
-  - curve:
-      serializedVersion: 2
-      m_Curve: []
-      m_PreInfinity: 2
-      m_PostInfinity: 2
-      m_RotationOrder: 4
-    attribute: m_LocalEulerAngles.x
-    path: jnt_org/global_C0_jnt_org/global_C0_0_jnt/spine_C0_0_jnt/spine_C0_1_jnt/spine_C0_2_jnt/shoulder_L0_shoulder_jnt
-    classID: 4
-    script: {fileID: 0}
-  - curve:
-      serializedVersion: 2
-      m_Curve: []
-      m_PreInfinity: 2
-      m_PostInfinity: 2
-      m_RotationOrder: 4
-    attribute: m_LocalEulerAngles.z
-    path: jnt_org/global_C0_jnt_org/global_C0_0_jnt/spine_C0_0_jnt/leg_R0_0_jnt/leg_R0_1_jnt/leg_R0_2_jnt
-    classID: 4
-    script: {fileID: 0}
-  - curve:
-      serializedVersion: 2
-      m_Curve: []
-      m_PreInfinity: 2
-      m_PostInfinity: 2
-      m_RotationOrder: 4
-    attribute: m_LocalEulerAngles.y
-    path: jnt_org/global_C0_jnt_org/global_C0_0_jnt/spine_C0_0_jnt/leg_R0_0_jnt/leg_R0_1_jnt/leg_R0_2_jnt
-    classID: 4
-    script: {fileID: 0}
-  - curve:
-      serializedVersion: 2
-      m_Curve: []
-      m_PreInfinity: 2
-      m_PostInfinity: 2
-      m_RotationOrder: 4
-    attribute: m_LocalEulerAngles.x
-    path: jnt_org/global_C0_jnt_org/global_C0_0_jnt/spine_C0_0_jnt/leg_R0_0_jnt/leg_R0_1_jnt/leg_R0_2_jnt
-    classID: 4
-    script: {fileID: 0}
-  - curve:
-      serializedVersion: 2
-      m_Curve: []
-      m_PreInfinity: 2
-      m_PostInfinity: 2
-      m_RotationOrder: 4
-    attribute: m_LocalEulerAngles.z
-    path: jnt_org/global_C0_jnt_org/global_C0_0_jnt/spine_C0_0_jnt/spine_C0_1_jnt/spine_C0_2_jnt/head_C0_0_jnt/bangSmall_C0_0_jnt
-    classID: 4
-    script: {fileID: 0}
-  - curve:
-      serializedVersion: 2
-      m_Curve: []
-      m_PreInfinity: 2
-      m_PostInfinity: 2
-      m_RotationOrder: 4
-    attribute: m_LocalEulerAngles.y
-    path: jnt_org/global_C0_jnt_org/global_C0_0_jnt/spine_C0_0_jnt/spine_C0_1_jnt/spine_C0_2_jnt/head_C0_0_jnt/bangSmall_C0_0_jnt
-    classID: 4
-    script: {fileID: 0}
-  - curve:
-      serializedVersion: 2
-      m_Curve: []
-      m_PreInfinity: 2
-      m_PostInfinity: 2
-      m_RotationOrder: 4
-    attribute: m_LocalEulerAngles.x
-    path: jnt_org/global_C0_jnt_org/global_C0_0_jnt/spine_C0_0_jnt/spine_C0_1_jnt/spine_C0_2_jnt/head_C0_0_jnt/bangSmall_C0_0_jnt
-    classID: 4
-    script: {fileID: 0}
-  - curve:
-      serializedVersion: 2
-      m_Curve: []
-      m_PreInfinity: 2
-      m_PostInfinity: 2
-      m_RotationOrder: 4
-    attribute: m_LocalEulerAngles.z
-    path: jnt_org/global_C0_jnt_org/global_C0_0_jnt/spine_C0_0_jnt/spine_C0_1_jnt/spine_C0_2_jnt/head_C0_0_jnt/eyebrow_R0_0_jnt
-    classID: 4
-    script: {fileID: 0}
-  - curve:
-      serializedVersion: 2
-      m_Curve: []
-      m_PreInfinity: 2
-      m_PostInfinity: 2
-      m_RotationOrder: 4
-    attribute: m_LocalEulerAngles.y
-    path: jnt_org/global_C0_jnt_org/global_C0_0_jnt/spine_C0_0_jnt/spine_C0_1_jnt/spine_C0_2_jnt/head_C0_0_jnt/eyebrow_R0_0_jnt
-    classID: 4
-    script: {fileID: 0}
-  - curve:
-      serializedVersion: 2
-      m_Curve: []
-      m_PreInfinity: 2
-      m_PostInfinity: 2
-      m_RotationOrder: 4
-    attribute: m_LocalEulerAngles.x
-    path: jnt_org/global_C0_jnt_org/global_C0_0_jnt/spine_C0_0_jnt/spine_C0_1_jnt/spine_C0_2_jnt/head_C0_0_jnt/eyebrow_R0_0_jnt
-    classID: 4
-    script: {fileID: 0}
-  - curve:
-      serializedVersion: 2
-      m_Curve: []
-      m_PreInfinity: 2
-      m_PostInfinity: 2
-      m_RotationOrder: 4
-    attribute: m_LocalEulerAngles.z
-    path: jnt_org/global_C0_jnt_org/global_C0_0_jnt/spine_C0_0_jnt/spine_C0_1_jnt
-    classID: 4
-    script: {fileID: 0}
-  - curve:
-      serializedVersion: 2
-      m_Curve: []
-      m_PreInfinity: 2
-      m_PostInfinity: 2
-      m_RotationOrder: 4
-    attribute: m_LocalEulerAngles.y
-    path: jnt_org/global_C0_jnt_org/global_C0_0_jnt/spine_C0_0_jnt/spine_C0_1_jnt
-    classID: 4
-    script: {fileID: 0}
-  - curve:
-      serializedVersion: 2
-      m_Curve: []
-      m_PreInfinity: 2
-      m_PostInfinity: 2
-      m_RotationOrder: 4
-    attribute: m_LocalEulerAngles.x
-    path: jnt_org/global_C0_jnt_org/global_C0_0_jnt/spine_C0_0_jnt/spine_C0_1_jnt
-    classID: 4
-    script: {fileID: 0}
-  - curve:
-      serializedVersion: 2
-      m_Curve: []
-      m_PreInfinity: 2
-      m_PostInfinity: 2
-      m_RotationOrder: 4
-    attribute: m_LocalEulerAngles.z
-    path: jnt_org/global_C0_jnt_org/global_C0_0_jnt/spine_C0_0_jnt/spine_C0_1_jnt/spine_C0_2_jnt/head_C0_0_jnt/eyelidUpper_L0_0_jnt
-    classID: 4
-    script: {fileID: 0}
-  - curve:
-      serializedVersion: 2
-      m_Curve: []
-      m_PreInfinity: 2
-      m_PostInfinity: 2
-      m_RotationOrder: 4
-    attribute: m_LocalEulerAngles.y
-    path: jnt_org/global_C0_jnt_org/global_C0_0_jnt/spine_C0_0_jnt/spine_C0_1_jnt/spine_C0_2_jnt/head_C0_0_jnt/eyelidUpper_L0_0_jnt
-    classID: 4
-    script: {fileID: 0}
-  - curve:
-      serializedVersion: 2
-      m_Curve: []
-      m_PreInfinity: 2
-      m_PostInfinity: 2
-      m_RotationOrder: 4
-    attribute: m_LocalEulerAngles.x
-    path: jnt_org/global_C0_jnt_org/global_C0_0_jnt/spine_C0_0_jnt/spine_C0_1_jnt/spine_C0_2_jnt/head_C0_0_jnt/eyelidUpper_L0_0_jnt
-    classID: 4
-    script: {fileID: 0}
-  - curve:
-      serializedVersion: 2
-      m_Curve: []
-      m_PreInfinity: 2
-      m_PostInfinity: 2
-      m_RotationOrder: 4
-    attribute: m_LocalEulerAngles.z
-    path: Peon_eye_ball
-    classID: 4
-    script: {fileID: 0}
-  - curve:
-      serializedVersion: 2
-      m_Curve: []
-      m_PreInfinity: 2
-      m_PostInfinity: 2
-      m_RotationOrder: 4
-    attribute: m_LocalEulerAngles.y
-    path: Peon_eye_ball
-    classID: 4
-    script: {fileID: 0}
-  - curve:
-      serializedVersion: 2
-      m_Curve: []
-      m_PreInfinity: 2
-      m_PostInfinity: 2
-      m_RotationOrder: 4
-    attribute: m_LocalEulerAngles.x
-    path: Peon_eye_ball
-    classID: 4
-    script: {fileID: 0}
-  - curve:
-      serializedVersion: 2
-      m_Curve: []
-      m_PreInfinity: 2
-      m_PostInfinity: 2
-      m_RotationOrder: 4
-    attribute: m_LocalEulerAngles.z
-    path: jnt_org/global_C0_jnt_org/global_C0_0_jnt/spine_C0_0_jnt/spine_C0_1_jnt/spine_C0_2_jnt/shoulder_L0_shoulder_jnt/arm_L0_0_jnt/arm_L0_1_jnt
-    classID: 4
-    script: {fileID: 0}
-  - curve:
-      serializedVersion: 2
-      m_Curve: []
-      m_PreInfinity: 2
-      m_PostInfinity: 2
-      m_RotationOrder: 4
-    attribute: m_LocalEulerAngles.y
-    path: jnt_org/global_C0_jnt_org/global_C0_0_jnt/spine_C0_0_jnt/spine_C0_1_jnt/spine_C0_2_jnt/shoulder_L0_shoulder_jnt/arm_L0_0_jnt/arm_L0_1_jnt
-    classID: 4
-    script: {fileID: 0}
-  - curve:
-      serializedVersion: 2
-      m_Curve: []
-      m_PreInfinity: 2
-      m_PostInfinity: 2
-      m_RotationOrder: 4
-    attribute: m_LocalEulerAngles.x
-    path: jnt_org/global_C0_jnt_org/global_C0_0_jnt/spine_C0_0_jnt/spine_C0_1_jnt/spine_C0_2_jnt/shoulder_L0_shoulder_jnt/arm_L0_0_jnt/arm_L0_1_jnt
-    classID: 4
-    script: {fileID: 0}
-  - curve:
-      serializedVersion: 2
-      m_Curve: []
-      m_PreInfinity: 2
-      m_PostInfinity: 2
-      m_RotationOrder: 4
-    attribute: m_LocalEulerAngles.z
     path: jnt_org/global_C0_jnt_org/global_C0_0_jnt/spine_C0_0_jnt/leg_L0_0_jnt/leg_L0_1_jnt
     classID: 4
     script: {fileID: 0}
@@ -12722,216 +12152,6 @@ AnimationClip:
       m_RotationOrder: 4
     attribute: m_LocalEulerAngles.x
     path: jnt_org/global_C0_jnt_org/global_C0_0_jnt/spine_C0_0_jnt/leg_L0_0_jnt/leg_L0_1_jnt
-    classID: 4
-    script: {fileID: 0}
-  - curve:
-      serializedVersion: 2
-      m_Curve: []
-      m_PreInfinity: 2
-      m_PostInfinity: 2
-      m_RotationOrder: 4
-    attribute: m_LocalEulerAngles.z
-    path: jnt_org/global_C0_jnt_org/global_C0_0_jnt/spine_C0_0_jnt/spine_C0_1_jnt/spine_C0_2_jnt/shoulder_L0_shoulder_jnt/arm_L0_0_jnt/arm_L0_1_jnt/arm_L0_2_jnt
-    classID: 4
-    script: {fileID: 0}
-  - curve:
-      serializedVersion: 2
-      m_Curve: []
-      m_PreInfinity: 2
-      m_PostInfinity: 2
-      m_RotationOrder: 4
-    attribute: m_LocalEulerAngles.y
-    path: jnt_org/global_C0_jnt_org/global_C0_0_jnt/spine_C0_0_jnt/spine_C0_1_jnt/spine_C0_2_jnt/shoulder_L0_shoulder_jnt/arm_L0_0_jnt/arm_L0_1_jnt/arm_L0_2_jnt
-    classID: 4
-    script: {fileID: 0}
-  - curve:
-      serializedVersion: 2
-      m_Curve: []
-      m_PreInfinity: 2
-      m_PostInfinity: 2
-      m_RotationOrder: 4
-    attribute: m_LocalEulerAngles.x
-    path: jnt_org/global_C0_jnt_org/global_C0_0_jnt/spine_C0_0_jnt/spine_C0_1_jnt/spine_C0_2_jnt/shoulder_L0_shoulder_jnt/arm_L0_0_jnt/arm_L0_1_jnt/arm_L0_2_jnt
-    classID: 4
-    script: {fileID: 0}
-  - curve:
-      serializedVersion: 2
-      m_Curve: []
-      m_PreInfinity: 2
-      m_PostInfinity: 2
-      m_RotationOrder: 4
-    attribute: m_LocalEulerAngles.z
-    path: jnt_org/global_C0_jnt_org/global_C0_0_jnt/spine_C0_0_jnt/spine_C0_1_jnt/spine_C0_2_jnt/shoulder_L0_shoulder_jnt/arm_L0_0_jnt/arm_L0_1_jnt/arm_L0_2_jnt/arm_L0_end_jnt/thumb_L0_0_jnt
-    classID: 4
-    script: {fileID: 0}
-  - curve:
-      serializedVersion: 2
-      m_Curve: []
-      m_PreInfinity: 2
-      m_PostInfinity: 2
-      m_RotationOrder: 4
-    attribute: m_LocalEulerAngles.y
-    path: jnt_org/global_C0_jnt_org/global_C0_0_jnt/spine_C0_0_jnt/spine_C0_1_jnt/spine_C0_2_jnt/shoulder_L0_shoulder_jnt/arm_L0_0_jnt/arm_L0_1_jnt/arm_L0_2_jnt/arm_L0_end_jnt/thumb_L0_0_jnt
-    classID: 4
-    script: {fileID: 0}
-  - curve:
-      serializedVersion: 2
-      m_Curve: []
-      m_PreInfinity: 2
-      m_PostInfinity: 2
-      m_RotationOrder: 4
-    attribute: m_LocalEulerAngles.x
-    path: jnt_org/global_C0_jnt_org/global_C0_0_jnt/spine_C0_0_jnt/spine_C0_1_jnt/spine_C0_2_jnt/shoulder_L0_shoulder_jnt/arm_L0_0_jnt/arm_L0_1_jnt/arm_L0_2_jnt/arm_L0_end_jnt/thumb_L0_0_jnt
-    classID: 4
-    script: {fileID: 0}
-  - curve:
-      serializedVersion: 2
-      m_Curve: []
-      m_PreInfinity: 2
-      m_PostInfinity: 2
-      m_RotationOrder: 4
-    attribute: m_LocalEulerAngles.z
-    path: jnt_org/global_C0_jnt_org/global_C0_0_jnt/spine_C0_0_jnt/spine_C0_1_jnt/spine_C0_2_jnt/shoulder_R0_shoulder_jnt/arm_R0_0_jnt
-    classID: 4
-    script: {fileID: 0}
-  - curve:
-      serializedVersion: 2
-      m_Curve: []
-      m_PreInfinity: 2
-      m_PostInfinity: 2
-      m_RotationOrder: 4
-    attribute: m_LocalEulerAngles.y
-    path: jnt_org/global_C0_jnt_org/global_C0_0_jnt/spine_C0_0_jnt/spine_C0_1_jnt/spine_C0_2_jnt/shoulder_R0_shoulder_jnt/arm_R0_0_jnt
-    classID: 4
-    script: {fileID: 0}
-  - curve:
-      serializedVersion: 2
-      m_Curve: []
-      m_PreInfinity: 2
-      m_PostInfinity: 2
-      m_RotationOrder: 4
-    attribute: m_LocalEulerAngles.x
-    path: jnt_org/global_C0_jnt_org/global_C0_0_jnt/spine_C0_0_jnt/spine_C0_1_jnt/spine_C0_2_jnt/shoulder_R0_shoulder_jnt/arm_R0_0_jnt
-    classID: 4
-    script: {fileID: 0}
-  - curve:
-      serializedVersion: 2
-      m_Curve: []
-      m_PreInfinity: 2
-      m_PostInfinity: 2
-      m_RotationOrder: 4
-    attribute: m_LocalEulerAngles.z
-    path: jnt_org/global_C0_jnt_org/global_C0_0_jnt/spine_C0_0_jnt/spine_C0_1_jnt/spine_C0_2_jnt/shoulder_R0_shoulder_jnt/arm_R0_0_jnt/arm_R0_1_jnt
-    classID: 4
-    script: {fileID: 0}
-  - curve:
-      serializedVersion: 2
-      m_Curve: []
-      m_PreInfinity: 2
-      m_PostInfinity: 2
-      m_RotationOrder: 4
-    attribute: m_LocalEulerAngles.y
-    path: jnt_org/global_C0_jnt_org/global_C0_0_jnt/spine_C0_0_jnt/spine_C0_1_jnt/spine_C0_2_jnt/shoulder_R0_shoulder_jnt/arm_R0_0_jnt/arm_R0_1_jnt
-    classID: 4
-    script: {fileID: 0}
-  - curve:
-      serializedVersion: 2
-      m_Curve: []
-      m_PreInfinity: 2
-      m_PostInfinity: 2
-      m_RotationOrder: 4
-    attribute: m_LocalEulerAngles.x
-    path: jnt_org/global_C0_jnt_org/global_C0_0_jnt/spine_C0_0_jnt/spine_C0_1_jnt/spine_C0_2_jnt/shoulder_R0_shoulder_jnt/arm_R0_0_jnt/arm_R0_1_jnt
-    classID: 4
-    script: {fileID: 0}
-  - curve:
-      serializedVersion: 2
-      m_Curve: []
-      m_PreInfinity: 2
-      m_PostInfinity: 2
-      m_RotationOrder: 4
-    attribute: m_LocalEulerAngles.z
-    path: jnt_org/global_C0_jnt_org/global_C0_0_jnt/spine_C0_0_jnt/spine_C0_1_jnt/spine_C0_2_jnt/shoulder_R0_shoulder_jnt
-    classID: 4
-    script: {fileID: 0}
-  - curve:
-      serializedVersion: 2
-      m_Curve: []
-      m_PreInfinity: 2
-      m_PostInfinity: 2
-      m_RotationOrder: 4
-    attribute: m_LocalEulerAngles.y
-    path: jnt_org/global_C0_jnt_org/global_C0_0_jnt/spine_C0_0_jnt/spine_C0_1_jnt/spine_C0_2_jnt/shoulder_R0_shoulder_jnt
-    classID: 4
-    script: {fileID: 0}
-  - curve:
-      serializedVersion: 2
-      m_Curve: []
-      m_PreInfinity: 2
-      m_PostInfinity: 2
-      m_RotationOrder: 4
-    attribute: m_LocalEulerAngles.x
-    path: jnt_org/global_C0_jnt_org/global_C0_0_jnt/spine_C0_0_jnt/spine_C0_1_jnt/spine_C0_2_jnt/shoulder_R0_shoulder_jnt
-    classID: 4
-    script: {fileID: 0}
-  - curve:
-      serializedVersion: 2
-      m_Curve: []
-      m_PreInfinity: 2
-      m_PostInfinity: 2
-      m_RotationOrder: 4
-    attribute: m_LocalEulerAngles.z
-    path: jnt_org/global_C0_jnt_org/global_C0_0_jnt/spine_C0_0_jnt/spine_C0_1_jnt/spine_C0_2_jnt/shoulder_L0_shoulder_jnt/arm_L0_0_jnt/arm_L0_1_jnt/arm_L0_2_jnt/arm_L0_end_jnt
-    classID: 4
-    script: {fileID: 0}
-  - curve:
-      serializedVersion: 2
-      m_Curve: []
-      m_PreInfinity: 2
-      m_PostInfinity: 2
-      m_RotationOrder: 4
-    attribute: m_LocalEulerAngles.y
-    path: jnt_org/global_C0_jnt_org/global_C0_0_jnt/spine_C0_0_jnt/spine_C0_1_jnt/spine_C0_2_jnt/shoulder_L0_shoulder_jnt/arm_L0_0_jnt/arm_L0_1_jnt/arm_L0_2_jnt/arm_L0_end_jnt
-    classID: 4
-    script: {fileID: 0}
-  - curve:
-      serializedVersion: 2
-      m_Curve: []
-      m_PreInfinity: 2
-      m_PostInfinity: 2
-      m_RotationOrder: 4
-    attribute: m_LocalEulerAngles.x
-    path: jnt_org/global_C0_jnt_org/global_C0_0_jnt/spine_C0_0_jnt/spine_C0_1_jnt/spine_C0_2_jnt/shoulder_L0_shoulder_jnt/arm_L0_0_jnt/arm_L0_1_jnt/arm_L0_2_jnt/arm_L0_end_jnt
-    classID: 4
-    script: {fileID: 0}
-  - curve:
-      serializedVersion: 2
-      m_Curve: []
-      m_PreInfinity: 2
-      m_PostInfinity: 2
-      m_RotationOrder: 4
-    attribute: m_LocalEulerAngles.z
-    path: jnt_org/global_C0_jnt_org/global_C0_0_jnt/spine_C0_0_jnt/spine_C0_1_jnt/spine_C0_2_jnt/shoulder_R0_shoulder_jnt/arm_R0_0_jnt/arm_R0_1_jnt/arm_R0_2_jnt/arm_R0_end_jnt/finger_R0_0_jnt
-    classID: 4
-    script: {fileID: 0}
-  - curve:
-      serializedVersion: 2
-      m_Curve: []
-      m_PreInfinity: 2
-      m_PostInfinity: 2
-      m_RotationOrder: 4
-    attribute: m_LocalEulerAngles.y
-    path: jnt_org/global_C0_jnt_org/global_C0_0_jnt/spine_C0_0_jnt/spine_C0_1_jnt/spine_C0_2_jnt/shoulder_R0_shoulder_jnt/arm_R0_0_jnt/arm_R0_1_jnt/arm_R0_2_jnt/arm_R0_end_jnt/finger_R0_0_jnt
-    classID: 4
-    script: {fileID: 0}
-  - curve:
-      serializedVersion: 2
-      m_Curve: []
-      m_PreInfinity: 2
-      m_PostInfinity: 2
-      m_RotationOrder: 4
-    attribute: m_LocalEulerAngles.x
-    path: jnt_org/global_C0_jnt_org/global_C0_0_jnt/spine_C0_0_jnt/spine_C0_1_jnt/spine_C0_2_jnt/shoulder_R0_shoulder_jnt/arm_R0_0_jnt/arm_R0_1_jnt/arm_R0_2_jnt/arm_R0_end_jnt/finger_R0_0_jnt
     classID: 4
     script: {fileID: 0}
   - curve:
@@ -12971,7 +12191,7 @@ AnimationClip:
       m_PostInfinity: 2
       m_RotationOrder: 4
     attribute: m_LocalEulerAngles.z
-    path: jnt_org/global_C0_jnt_org/global_C0_0_jnt/spine_C0_0_jnt/spine_C0_1_jnt/spine_C0_2_jnt/shoulder_L0_shoulder_jnt/arm_L0_0_jnt/arm_L0_1_jnt/arm_L0_2_jnt/arm_L0_end_jnt/finger_L0_0_jnt/finger_L0_1_jnt
+    path: jnt_org/global_C0_jnt_org/global_C0_0_jnt/spine_C0_0_jnt/spine_C0_1_jnt/spine_C0_2_jnt/shoulder_L0_shoulder_jnt/arm_L0_0_jnt/arm_L0_1_jnt/arm_L0_2_jnt/arm_L0_end_jnt
     classID: 4
     script: {fileID: 0}
   - curve:
@@ -12981,7 +12201,7 @@ AnimationClip:
       m_PostInfinity: 2
       m_RotationOrder: 4
     attribute: m_LocalEulerAngles.y
-    path: jnt_org/global_C0_jnt_org/global_C0_0_jnt/spine_C0_0_jnt/spine_C0_1_jnt/spine_C0_2_jnt/shoulder_L0_shoulder_jnt/arm_L0_0_jnt/arm_L0_1_jnt/arm_L0_2_jnt/arm_L0_end_jnt/finger_L0_0_jnt/finger_L0_1_jnt
+    path: jnt_org/global_C0_jnt_org/global_C0_0_jnt/spine_C0_0_jnt/spine_C0_1_jnt/spine_C0_2_jnt/shoulder_L0_shoulder_jnt/arm_L0_0_jnt/arm_L0_1_jnt/arm_L0_2_jnt/arm_L0_end_jnt
     classID: 4
     script: {fileID: 0}
   - curve:
@@ -12991,7 +12211,697 @@ AnimationClip:
       m_PostInfinity: 2
       m_RotationOrder: 4
     attribute: m_LocalEulerAngles.x
-    path: jnt_org/global_C0_jnt_org/global_C0_0_jnt/spine_C0_0_jnt/spine_C0_1_jnt/spine_C0_2_jnt/shoulder_L0_shoulder_jnt/arm_L0_0_jnt/arm_L0_1_jnt/arm_L0_2_jnt/arm_L0_end_jnt/finger_L0_0_jnt/finger_L0_1_jnt
+    path: jnt_org/global_C0_jnt_org/global_C0_0_jnt/spine_C0_0_jnt/spine_C0_1_jnt/spine_C0_2_jnt/shoulder_L0_shoulder_jnt/arm_L0_0_jnt/arm_L0_1_jnt/arm_L0_2_jnt/arm_L0_end_jnt
+    classID: 4
+    script: {fileID: 0}
+  - curve:
+      serializedVersion: 2
+      m_Curve: []
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    attribute: m_LocalEulerAngles.z
+    path: jnt_org/global_C0_jnt_org/global_C0_0_jnt/spine_C0_0_jnt/leg_R0_0_jnt/leg_R0_1_jnt/leg_R0_2_jnt
+    classID: 4
+    script: {fileID: 0}
+  - curve:
+      serializedVersion: 2
+      m_Curve: []
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    attribute: m_LocalEulerAngles.y
+    path: jnt_org/global_C0_jnt_org/global_C0_0_jnt/spine_C0_0_jnt/leg_R0_0_jnt/leg_R0_1_jnt/leg_R0_2_jnt
+    classID: 4
+    script: {fileID: 0}
+  - curve:
+      serializedVersion: 2
+      m_Curve: []
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    attribute: m_LocalEulerAngles.x
+    path: jnt_org/global_C0_jnt_org/global_C0_0_jnt/spine_C0_0_jnt/leg_R0_0_jnt/leg_R0_1_jnt/leg_R0_2_jnt
+    classID: 4
+    script: {fileID: 0}
+  - curve:
+      serializedVersion: 2
+      m_Curve: []
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    attribute: m_LocalEulerAngles.z
+    path: jnt_org/global_C0_jnt_org/global_C0_0_jnt/spine_C0_0_jnt/spine_C0_1_jnt/spine_C0_2_jnt/shoulder_R0_shoulder_jnt/arm_R0_0_jnt/arm_R0_1_jnt/arm_R0_2_jnt/arm_R0_end_jnt/finger_R1_0_jnt
+    classID: 4
+    script: {fileID: 0}
+  - curve:
+      serializedVersion: 2
+      m_Curve: []
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    attribute: m_LocalEulerAngles.y
+    path: jnt_org/global_C0_jnt_org/global_C0_0_jnt/spine_C0_0_jnt/spine_C0_1_jnt/spine_C0_2_jnt/shoulder_R0_shoulder_jnt/arm_R0_0_jnt/arm_R0_1_jnt/arm_R0_2_jnt/arm_R0_end_jnt/finger_R1_0_jnt
+    classID: 4
+    script: {fileID: 0}
+  - curve:
+      serializedVersion: 2
+      m_Curve: []
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    attribute: m_LocalEulerAngles.x
+    path: jnt_org/global_C0_jnt_org/global_C0_0_jnt/spine_C0_0_jnt/spine_C0_1_jnt/spine_C0_2_jnt/shoulder_R0_shoulder_jnt/arm_R0_0_jnt/arm_R0_1_jnt/arm_R0_2_jnt/arm_R0_end_jnt/finger_R1_0_jnt
+    classID: 4
+    script: {fileID: 0}
+  - curve:
+      serializedVersion: 2
+      m_Curve: []
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    attribute: m_LocalEulerAngles.z
+    path: jnt_org/global_C0_jnt_org/global_C0_0_jnt/spine_C0_0_jnt/spine_C0_1_jnt
+    classID: 4
+    script: {fileID: 0}
+  - curve:
+      serializedVersion: 2
+      m_Curve: []
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    attribute: m_LocalEulerAngles.y
+    path: jnt_org/global_C0_jnt_org/global_C0_0_jnt/spine_C0_0_jnt/spine_C0_1_jnt
+    classID: 4
+    script: {fileID: 0}
+  - curve:
+      serializedVersion: 2
+      m_Curve: []
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    attribute: m_LocalEulerAngles.x
+    path: jnt_org/global_C0_jnt_org/global_C0_0_jnt/spine_C0_0_jnt/spine_C0_1_jnt
+    classID: 4
+    script: {fileID: 0}
+  - curve:
+      serializedVersion: 2
+      m_Curve: []
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    attribute: m_LocalEulerAngles.z
+    path: jnt_org/global_C0_jnt_org/global_C0_0_jnt/spine_C0_0_jnt/spine_C0_1_jnt/spine_C0_2_jnt/head_C0_0_jnt
+    classID: 4
+    script: {fileID: 0}
+  - curve:
+      serializedVersion: 2
+      m_Curve: []
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    attribute: m_LocalEulerAngles.y
+    path: jnt_org/global_C0_jnt_org/global_C0_0_jnt/spine_C0_0_jnt/spine_C0_1_jnt/spine_C0_2_jnt/head_C0_0_jnt
+    classID: 4
+    script: {fileID: 0}
+  - curve:
+      serializedVersion: 2
+      m_Curve: []
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    attribute: m_LocalEulerAngles.x
+    path: jnt_org/global_C0_jnt_org/global_C0_0_jnt/spine_C0_0_jnt/spine_C0_1_jnt/spine_C0_2_jnt/head_C0_0_jnt
+    classID: 4
+    script: {fileID: 0}
+  - curve:
+      serializedVersion: 2
+      m_Curve: []
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    attribute: m_LocalEulerAngles.z
+    path: jnt_org/global_C0_jnt_org/global_C0_0_jnt/spine_C0_0_jnt/spine_C0_1_jnt/spine_C0_2_jnt/shoulder_R0_shoulder_jnt/arm_R0_0_jnt/arm_R0_1_jnt/arm_R0_2_jnt/arm_R0_end_jnt/finger_R1_0_jnt/finger_R1_1_jnt
+    classID: 4
+    script: {fileID: 0}
+  - curve:
+      serializedVersion: 2
+      m_Curve: []
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    attribute: m_LocalEulerAngles.y
+    path: jnt_org/global_C0_jnt_org/global_C0_0_jnt/spine_C0_0_jnt/spine_C0_1_jnt/spine_C0_2_jnt/shoulder_R0_shoulder_jnt/arm_R0_0_jnt/arm_R0_1_jnt/arm_R0_2_jnt/arm_R0_end_jnt/finger_R1_0_jnt/finger_R1_1_jnt
+    classID: 4
+    script: {fileID: 0}
+  - curve:
+      serializedVersion: 2
+      m_Curve: []
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    attribute: m_LocalEulerAngles.x
+    path: jnt_org/global_C0_jnt_org/global_C0_0_jnt/spine_C0_0_jnt/spine_C0_1_jnt/spine_C0_2_jnt/shoulder_R0_shoulder_jnt/arm_R0_0_jnt/arm_R0_1_jnt/arm_R0_2_jnt/arm_R0_end_jnt/finger_R1_0_jnt/finger_R1_1_jnt
+    classID: 4
+    script: {fileID: 0}
+  - curve:
+      serializedVersion: 2
+      m_Curve: []
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    attribute: m_LocalEulerAngles.z
+    path: Peon_eye_ball
+    classID: 4
+    script: {fileID: 0}
+  - curve:
+      serializedVersion: 2
+      m_Curve: []
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    attribute: m_LocalEulerAngles.y
+    path: Peon_eye_ball
+    classID: 4
+    script: {fileID: 0}
+  - curve:
+      serializedVersion: 2
+      m_Curve: []
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    attribute: m_LocalEulerAngles.x
+    path: Peon_eye_ball
+    classID: 4
+    script: {fileID: 0}
+  - curve:
+      serializedVersion: 2
+      m_Curve: []
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    attribute: m_LocalEulerAngles.z
+    path: Peon_eye_ball (1)
+    classID: 4
+    script: {fileID: 0}
+  - curve:
+      serializedVersion: 2
+      m_Curve: []
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    attribute: m_LocalEulerAngles.y
+    path: Peon_eye_ball (1)
+    classID: 4
+    script: {fileID: 0}
+  - curve:
+      serializedVersion: 2
+      m_Curve: []
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    attribute: m_LocalEulerAngles.x
+    path: Peon_eye_ball (1)
+    classID: 4
+    script: {fileID: 0}
+  - curve:
+      serializedVersion: 2
+      m_Curve: []
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    attribute: m_LocalEulerAngles.z
+    path: jnt_org/global_C0_jnt_org/global_C0_0_jnt/spine_C0_0_jnt/leg_L0_0_jnt/leg_L0_1_jnt/leg_L0_2_jnt
+    classID: 4
+    script: {fileID: 0}
+  - curve:
+      serializedVersion: 2
+      m_Curve: []
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    attribute: m_LocalEulerAngles.y
+    path: jnt_org/global_C0_jnt_org/global_C0_0_jnt/spine_C0_0_jnt/leg_L0_0_jnt/leg_L0_1_jnt/leg_L0_2_jnt
+    classID: 4
+    script: {fileID: 0}
+  - curve:
+      serializedVersion: 2
+      m_Curve: []
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    attribute: m_LocalEulerAngles.x
+    path: jnt_org/global_C0_jnt_org/global_C0_0_jnt/spine_C0_0_jnt/leg_L0_0_jnt/leg_L0_1_jnt/leg_L0_2_jnt
+    classID: 4
+    script: {fileID: 0}
+  - curve:
+      serializedVersion: 2
+      m_Curve: []
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    attribute: m_LocalEulerAngles.z
+    path: jnt_org/global_C0_jnt_org/global_C0_0_jnt/spine_C0_0_jnt/spine_C0_1_jnt/spine_C0_2_jnt/head_C0_0_jnt/eyelidUpper_L0_0_jnt
+    classID: 4
+    script: {fileID: 0}
+  - curve:
+      serializedVersion: 2
+      m_Curve: []
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    attribute: m_LocalEulerAngles.y
+    path: jnt_org/global_C0_jnt_org/global_C0_0_jnt/spine_C0_0_jnt/spine_C0_1_jnt/spine_C0_2_jnt/head_C0_0_jnt/eyelidUpper_L0_0_jnt
+    classID: 4
+    script: {fileID: 0}
+  - curve:
+      serializedVersion: 2
+      m_Curve: []
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    attribute: m_LocalEulerAngles.x
+    path: jnt_org/global_C0_jnt_org/global_C0_0_jnt/spine_C0_0_jnt/spine_C0_1_jnt/spine_C0_2_jnt/head_C0_0_jnt/eyelidUpper_L0_0_jnt
+    classID: 4
+    script: {fileID: 0}
+  - curve:
+      serializedVersion: 2
+      m_Curve: []
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    attribute: m_LocalEulerAngles.z
+    path: jnt_org/global_C0_jnt_org/global_C0_0_jnt/spine_C0_0_jnt/leg_R0_0_jnt/leg_R0_1_jnt
+    classID: 4
+    script: {fileID: 0}
+  - curve:
+      serializedVersion: 2
+      m_Curve: []
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    attribute: m_LocalEulerAngles.y
+    path: jnt_org/global_C0_jnt_org/global_C0_0_jnt/spine_C0_0_jnt/leg_R0_0_jnt/leg_R0_1_jnt
+    classID: 4
+    script: {fileID: 0}
+  - curve:
+      serializedVersion: 2
+      m_Curve: []
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    attribute: m_LocalEulerAngles.x
+    path: jnt_org/global_C0_jnt_org/global_C0_0_jnt/spine_C0_0_jnt/leg_R0_0_jnt/leg_R0_1_jnt
+    classID: 4
+    script: {fileID: 0}
+  - curve:
+      serializedVersion: 2
+      m_Curve: []
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    attribute: m_LocalEulerAngles.z
+    path: jnt_org/global_C0_jnt_org/global_C0_0_jnt/spine_C0_0_jnt/spine_C0_1_jnt/spine_C0_2_jnt/head_C0_0_jnt/bangLarge_C0_0_jnt/bangLarge_C0_1_jnt
+    classID: 4
+    script: {fileID: 0}
+  - curve:
+      serializedVersion: 2
+      m_Curve: []
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    attribute: m_LocalEulerAngles.y
+    path: jnt_org/global_C0_jnt_org/global_C0_0_jnt/spine_C0_0_jnt/spine_C0_1_jnt/spine_C0_2_jnt/head_C0_0_jnt/bangLarge_C0_0_jnt/bangLarge_C0_1_jnt
+    classID: 4
+    script: {fileID: 0}
+  - curve:
+      serializedVersion: 2
+      m_Curve: []
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    attribute: m_LocalEulerAngles.x
+    path: jnt_org/global_C0_jnt_org/global_C0_0_jnt/spine_C0_0_jnt/spine_C0_1_jnt/spine_C0_2_jnt/head_C0_0_jnt/bangLarge_C0_0_jnt/bangLarge_C0_1_jnt
+    classID: 4
+    script: {fileID: 0}
+  - curve:
+      serializedVersion: 2
+      m_Curve: []
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    attribute: m_LocalEulerAngles.z
+    path: jnt_org/global_C0_jnt_org/global_C0_0_jnt/spine_C0_0_jnt/spine_C0_1_jnt/spine_C0_2_jnt/head_C0_0_jnt/bangSmall_C0_0_jnt
+    classID: 4
+    script: {fileID: 0}
+  - curve:
+      serializedVersion: 2
+      m_Curve: []
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    attribute: m_LocalEulerAngles.y
+    path: jnt_org/global_C0_jnt_org/global_C0_0_jnt/spine_C0_0_jnt/spine_C0_1_jnt/spine_C0_2_jnt/head_C0_0_jnt/bangSmall_C0_0_jnt
+    classID: 4
+    script: {fileID: 0}
+  - curve:
+      serializedVersion: 2
+      m_Curve: []
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    attribute: m_LocalEulerAngles.x
+    path: jnt_org/global_C0_jnt_org/global_C0_0_jnt/spine_C0_0_jnt/spine_C0_1_jnt/spine_C0_2_jnt/head_C0_0_jnt/bangSmall_C0_0_jnt
+    classID: 4
+    script: {fileID: 0}
+  - curve:
+      serializedVersion: 2
+      m_Curve: []
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    attribute: m_LocalEulerAngles.z
+    path: jnt_org/global_C0_jnt_org/global_C0_0_jnt/spine_C0_0_jnt/leg_R0_0_jnt/leg_R0_1_jnt/leg_R0_2_jnt/leg_R0_end_jnt
+    classID: 4
+    script: {fileID: 0}
+  - curve:
+      serializedVersion: 2
+      m_Curve: []
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    attribute: m_LocalEulerAngles.y
+    path: jnt_org/global_C0_jnt_org/global_C0_0_jnt/spine_C0_0_jnt/leg_R0_0_jnt/leg_R0_1_jnt/leg_R0_2_jnt/leg_R0_end_jnt
+    classID: 4
+    script: {fileID: 0}
+  - curve:
+      serializedVersion: 2
+      m_Curve: []
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    attribute: m_LocalEulerAngles.x
+    path: jnt_org/global_C0_jnt_org/global_C0_0_jnt/spine_C0_0_jnt/leg_R0_0_jnt/leg_R0_1_jnt/leg_R0_2_jnt/leg_R0_end_jnt
+    classID: 4
+    script: {fileID: 0}
+  - curve:
+      serializedVersion: 2
+      m_Curve: []
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    attribute: m_LocalEulerAngles.z
+    path: jnt_org/global_C0_jnt_org/global_C0_0_jnt/spine_C0_0_jnt/spine_C0_1_jnt/spine_C0_2_jnt/head_C0_0_jnt/eyebrow_R0_0_jnt
+    classID: 4
+    script: {fileID: 0}
+  - curve:
+      serializedVersion: 2
+      m_Curve: []
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    attribute: m_LocalEulerAngles.y
+    path: jnt_org/global_C0_jnt_org/global_C0_0_jnt/spine_C0_0_jnt/spine_C0_1_jnt/spine_C0_2_jnt/head_C0_0_jnt/eyebrow_R0_0_jnt
+    classID: 4
+    script: {fileID: 0}
+  - curve:
+      serializedVersion: 2
+      m_Curve: []
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    attribute: m_LocalEulerAngles.x
+    path: jnt_org/global_C0_jnt_org/global_C0_0_jnt/spine_C0_0_jnt/spine_C0_1_jnt/spine_C0_2_jnt/head_C0_0_jnt/eyebrow_R0_0_jnt
+    classID: 4
+    script: {fileID: 0}
+  - curve:
+      serializedVersion: 2
+      m_Curve: []
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    attribute: m_LocalEulerAngles.z
+    path: jnt_org/global_C0_jnt_org/global_C0_0_jnt/spine_C0_0_jnt/spine_C0_1_jnt/spine_C0_2_jnt/shoulder_R0_shoulder_jnt/arm_R0_0_jnt/arm_R0_1_jnt/arm_R0_2_jnt/arm_R0_end_jnt/thumb_R0_0_jnt
+    classID: 4
+    script: {fileID: 0}
+  - curve:
+      serializedVersion: 2
+      m_Curve: []
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    attribute: m_LocalEulerAngles.y
+    path: jnt_org/global_C0_jnt_org/global_C0_0_jnt/spine_C0_0_jnt/spine_C0_1_jnt/spine_C0_2_jnt/shoulder_R0_shoulder_jnt/arm_R0_0_jnt/arm_R0_1_jnt/arm_R0_2_jnt/arm_R0_end_jnt/thumb_R0_0_jnt
+    classID: 4
+    script: {fileID: 0}
+  - curve:
+      serializedVersion: 2
+      m_Curve: []
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    attribute: m_LocalEulerAngles.x
+    path: jnt_org/global_C0_jnt_org/global_C0_0_jnt/spine_C0_0_jnt/spine_C0_1_jnt/spine_C0_2_jnt/shoulder_R0_shoulder_jnt/arm_R0_0_jnt/arm_R0_1_jnt/arm_R0_2_jnt/arm_R0_end_jnt/thumb_R0_0_jnt
+    classID: 4
+    script: {fileID: 0}
+  - curve:
+      serializedVersion: 2
+      m_Curve: []
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    attribute: m_LocalEulerAngles.z
+    path: jnt_org/global_C0_jnt_org/global_C0_0_jnt/spine_C0_0_jnt/spine_C0_1_jnt/spine_C0_2_jnt/shoulder_L0_shoulder_jnt
+    classID: 4
+    script: {fileID: 0}
+  - curve:
+      serializedVersion: 2
+      m_Curve: []
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    attribute: m_LocalEulerAngles.y
+    path: jnt_org/global_C0_jnt_org/global_C0_0_jnt/spine_C0_0_jnt/spine_C0_1_jnt/spine_C0_2_jnt/shoulder_L0_shoulder_jnt
+    classID: 4
+    script: {fileID: 0}
+  - curve:
+      serializedVersion: 2
+      m_Curve: []
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    attribute: m_LocalEulerAngles.x
+    path: jnt_org/global_C0_jnt_org/global_C0_0_jnt/spine_C0_0_jnt/spine_C0_1_jnt/spine_C0_2_jnt/shoulder_L0_shoulder_jnt
+    classID: 4
+    script: {fileID: 0}
+  - curve:
+      serializedVersion: 2
+      m_Curve: []
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    attribute: m_LocalEulerAngles.z
+    path: jnt_org/global_C0_jnt_org/global_C0_0_jnt/spine_C0_0_jnt/leg_L0_0_jnt
+    classID: 4
+    script: {fileID: 0}
+  - curve:
+      serializedVersion: 2
+      m_Curve: []
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    attribute: m_LocalEulerAngles.y
+    path: jnt_org/global_C0_jnt_org/global_C0_0_jnt/spine_C0_0_jnt/leg_L0_0_jnt
+    classID: 4
+    script: {fileID: 0}
+  - curve:
+      serializedVersion: 2
+      m_Curve: []
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    attribute: m_LocalEulerAngles.x
+    path: jnt_org/global_C0_jnt_org/global_C0_0_jnt/spine_C0_0_jnt/leg_L0_0_jnt
+    classID: 4
+    script: {fileID: 0}
+  - curve:
+      serializedVersion: 2
+      m_Curve: []
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    attribute: m_LocalEulerAngles.z
+    path: jnt_org/global_C0_jnt_org/global_C0_0_jnt/spine_C0_0_jnt/spine_C0_1_jnt/spine_C0_2_jnt/shoulder_L0_shoulder_jnt/arm_L0_0_jnt/arm_L0_1_jnt
+    classID: 4
+    script: {fileID: 0}
+  - curve:
+      serializedVersion: 2
+      m_Curve: []
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    attribute: m_LocalEulerAngles.y
+    path: jnt_org/global_C0_jnt_org/global_C0_0_jnt/spine_C0_0_jnt/spine_C0_1_jnt/spine_C0_2_jnt/shoulder_L0_shoulder_jnt/arm_L0_0_jnt/arm_L0_1_jnt
+    classID: 4
+    script: {fileID: 0}
+  - curve:
+      serializedVersion: 2
+      m_Curve: []
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    attribute: m_LocalEulerAngles.x
+    path: jnt_org/global_C0_jnt_org/global_C0_0_jnt/spine_C0_0_jnt/spine_C0_1_jnt/spine_C0_2_jnt/shoulder_L0_shoulder_jnt/arm_L0_0_jnt/arm_L0_1_jnt
+    classID: 4
+    script: {fileID: 0}
+  - curve:
+      serializedVersion: 2
+      m_Curve: []
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    attribute: m_LocalEulerAngles.z
+    path: jnt_org/global_C0_jnt_org/global_C0_0_jnt/spine_C0_0_jnt/spine_C0_1_jnt/spine_C0_2_jnt/shoulder_L0_shoulder_jnt/arm_L0_0_jnt/arm_L0_1_jnt/arm_L0_2_jnt/arm_L0_end_jnt/finger_L1_0_jnt/finger_L1_1_jnt
+    classID: 4
+    script: {fileID: 0}
+  - curve:
+      serializedVersion: 2
+      m_Curve: []
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    attribute: m_LocalEulerAngles.y
+    path: jnt_org/global_C0_jnt_org/global_C0_0_jnt/spine_C0_0_jnt/spine_C0_1_jnt/spine_C0_2_jnt/shoulder_L0_shoulder_jnt/arm_L0_0_jnt/arm_L0_1_jnt/arm_L0_2_jnt/arm_L0_end_jnt/finger_L1_0_jnt/finger_L1_1_jnt
+    classID: 4
+    script: {fileID: 0}
+  - curve:
+      serializedVersion: 2
+      m_Curve: []
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    attribute: m_LocalEulerAngles.x
+    path: jnt_org/global_C0_jnt_org/global_C0_0_jnt/spine_C0_0_jnt/spine_C0_1_jnt/spine_C0_2_jnt/shoulder_L0_shoulder_jnt/arm_L0_0_jnt/arm_L0_1_jnt/arm_L0_2_jnt/arm_L0_end_jnt/finger_L1_0_jnt/finger_L1_1_jnt
+    classID: 4
+    script: {fileID: 0}
+  - curve:
+      serializedVersion: 2
+      m_Curve: []
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    attribute: m_LocalEulerAngles.z
+    path: jnt_org/global_C0_jnt_org/global_C0_0_jnt/spine_C0_0_jnt/spine_C0_1_jnt/spine_C0_2_jnt/shoulder_R0_shoulder_jnt
+    classID: 4
+    script: {fileID: 0}
+  - curve:
+      serializedVersion: 2
+      m_Curve: []
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    attribute: m_LocalEulerAngles.y
+    path: jnt_org/global_C0_jnt_org/global_C0_0_jnt/spine_C0_0_jnt/spine_C0_1_jnt/spine_C0_2_jnt/shoulder_R0_shoulder_jnt
+    classID: 4
+    script: {fileID: 0}
+  - curve:
+      serializedVersion: 2
+      m_Curve: []
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    attribute: m_LocalEulerAngles.x
+    path: jnt_org/global_C0_jnt_org/global_C0_0_jnt/spine_C0_0_jnt/spine_C0_1_jnt/spine_C0_2_jnt/shoulder_R0_shoulder_jnt
+    classID: 4
+    script: {fileID: 0}
+  - curve:
+      serializedVersion: 2
+      m_Curve: []
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    attribute: m_LocalEulerAngles.z
+    path: jnt_org/global_C0_jnt_org/global_C0_0_jnt/spine_C0_0_jnt/spine_C0_1_jnt/spine_C0_2_jnt/shoulder_R0_shoulder_jnt/arm_R0_0_jnt
+    classID: 4
+    script: {fileID: 0}
+  - curve:
+      serializedVersion: 2
+      m_Curve: []
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    attribute: m_LocalEulerAngles.y
+    path: jnt_org/global_C0_jnt_org/global_C0_0_jnt/spine_C0_0_jnt/spine_C0_1_jnt/spine_C0_2_jnt/shoulder_R0_shoulder_jnt/arm_R0_0_jnt
+    classID: 4
+    script: {fileID: 0}
+  - curve:
+      serializedVersion: 2
+      m_Curve: []
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    attribute: m_LocalEulerAngles.x
+    path: jnt_org/global_C0_jnt_org/global_C0_0_jnt/spine_C0_0_jnt/spine_C0_1_jnt/spine_C0_2_jnt/shoulder_R0_shoulder_jnt/arm_R0_0_jnt
+    classID: 4
+    script: {fileID: 0}
+  - curve:
+      serializedVersion: 2
+      m_Curve: []
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    attribute: m_LocalEulerAngles.z
+    path: jnt_org/global_C0_jnt_org/global_C0_0_jnt/spine_C0_0_jnt/spine_C0_1_jnt/spine_C0_2_jnt/shoulder_L0_shoulder_jnt/arm_L0_0_jnt/arm_L0_1_jnt/arm_L0_2_jnt/arm_L0_end_jnt/thumb_L0_0_jnt
+    classID: 4
+    script: {fileID: 0}
+  - curve:
+      serializedVersion: 2
+      m_Curve: []
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    attribute: m_LocalEulerAngles.y
+    path: jnt_org/global_C0_jnt_org/global_C0_0_jnt/spine_C0_0_jnt/spine_C0_1_jnt/spine_C0_2_jnt/shoulder_L0_shoulder_jnt/arm_L0_0_jnt/arm_L0_1_jnt/arm_L0_2_jnt/arm_L0_end_jnt/thumb_L0_0_jnt
+    classID: 4
+    script: {fileID: 0}
+  - curve:
+      serializedVersion: 2
+      m_Curve: []
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    attribute: m_LocalEulerAngles.x
+    path: jnt_org/global_C0_jnt_org/global_C0_0_jnt/spine_C0_0_jnt/spine_C0_1_jnt/spine_C0_2_jnt/shoulder_L0_shoulder_jnt/arm_L0_0_jnt/arm_L0_1_jnt/arm_L0_2_jnt/arm_L0_end_jnt/thumb_L0_0_jnt
+    classID: 4
+    script: {fileID: 0}
+  - curve:
+      serializedVersion: 2
+      m_Curve: []
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    attribute: m_LocalEulerAngles.z
+    path: jnt_org/global_C0_jnt_org/global_C0_0_jnt/spine_C0_0_jnt/spine_C0_1_jnt/spine_C0_2_jnt/shoulder_L0_shoulder_jnt/arm_L0_0_jnt/arm_L0_1_jnt/arm_L0_2_jnt
+    classID: 4
+    script: {fileID: 0}
+  - curve:
+      serializedVersion: 2
+      m_Curve: []
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    attribute: m_LocalEulerAngles.y
+    path: jnt_org/global_C0_jnt_org/global_C0_0_jnt/spine_C0_0_jnt/spine_C0_1_jnt/spine_C0_2_jnt/shoulder_L0_shoulder_jnt/arm_L0_0_jnt/arm_L0_1_jnt/arm_L0_2_jnt
+    classID: 4
+    script: {fileID: 0}
+  - curve:
+      serializedVersion: 2
+      m_Curve: []
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    attribute: m_LocalEulerAngles.x
+    path: jnt_org/global_C0_jnt_org/global_C0_0_jnt/spine_C0_0_jnt/spine_C0_1_jnt/spine_C0_2_jnt/shoulder_L0_shoulder_jnt/arm_L0_0_jnt/arm_L0_1_jnt/arm_L0_2_jnt
     classID: 4
     script: {fileID: 0}
   - curve:
@@ -13031,7 +12941,7 @@ AnimationClip:
       m_PostInfinity: 2
       m_RotationOrder: 4
     attribute: m_LocalEulerAngles.z
-    path: jnt_org/global_C0_jnt_org/global_C0_0_jnt/spine_C0_0_jnt/spine_C0_1_jnt/spine_C0_2_jnt/shoulder_R0_shoulder_jnt/arm_R0_0_jnt/arm_R0_1_jnt/arm_R0_2_jnt/arm_R0_end_jnt/finger_R1_0_jnt
+    path: jnt_org/global_C0_jnt_org/global_C0_0_jnt/spine_C0_0_jnt/spine_C0_1_jnt/spine_C0_2_jnt/shoulder_L0_shoulder_jnt/arm_L0_0_jnt/arm_L0_1_jnt/arm_L0_2_jnt/arm_L0_end_jnt/finger_L0_0_jnt/finger_L0_1_jnt
     classID: 4
     script: {fileID: 0}
   - curve:
@@ -13041,7 +12951,7 @@ AnimationClip:
       m_PostInfinity: 2
       m_RotationOrder: 4
     attribute: m_LocalEulerAngles.y
-    path: jnt_org/global_C0_jnt_org/global_C0_0_jnt/spine_C0_0_jnt/spine_C0_1_jnt/spine_C0_2_jnt/shoulder_R0_shoulder_jnt/arm_R0_0_jnt/arm_R0_1_jnt/arm_R0_2_jnt/arm_R0_end_jnt/finger_R1_0_jnt
+    path: jnt_org/global_C0_jnt_org/global_C0_0_jnt/spine_C0_0_jnt/spine_C0_1_jnt/spine_C0_2_jnt/shoulder_L0_shoulder_jnt/arm_L0_0_jnt/arm_L0_1_jnt/arm_L0_2_jnt/arm_L0_end_jnt/finger_L0_0_jnt/finger_L0_1_jnt
     classID: 4
     script: {fileID: 0}
   - curve:
@@ -13051,7 +12961,97 @@ AnimationClip:
       m_PostInfinity: 2
       m_RotationOrder: 4
     attribute: m_LocalEulerAngles.x
-    path: jnt_org/global_C0_jnt_org/global_C0_0_jnt/spine_C0_0_jnt/spine_C0_1_jnt/spine_C0_2_jnt/shoulder_R0_shoulder_jnt/arm_R0_0_jnt/arm_R0_1_jnt/arm_R0_2_jnt/arm_R0_end_jnt/finger_R1_0_jnt
+    path: jnt_org/global_C0_jnt_org/global_C0_0_jnt/spine_C0_0_jnt/spine_C0_1_jnt/spine_C0_2_jnt/shoulder_L0_shoulder_jnt/arm_L0_0_jnt/arm_L0_1_jnt/arm_L0_2_jnt/arm_L0_end_jnt/finger_L0_0_jnt/finger_L0_1_jnt
+    classID: 4
+    script: {fileID: 0}
+  - curve:
+      serializedVersion: 2
+      m_Curve: []
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    attribute: m_LocalEulerAngles.z
+    path: jnt_org/global_C0_jnt_org/global_C0_0_jnt/spine_C0_0_jnt/spine_C0_1_jnt/spine_C0_2_jnt/shoulder_L0_shoulder_jnt/arm_L0_0_jnt/arm_L0_1_jnt/arm_L0_2_jnt/arm_L0_end_jnt/finger_L0_0_jnt
+    classID: 4
+    script: {fileID: 0}
+  - curve:
+      serializedVersion: 2
+      m_Curve: []
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    attribute: m_LocalEulerAngles.y
+    path: jnt_org/global_C0_jnt_org/global_C0_0_jnt/spine_C0_0_jnt/spine_C0_1_jnt/spine_C0_2_jnt/shoulder_L0_shoulder_jnt/arm_L0_0_jnt/arm_L0_1_jnt/arm_L0_2_jnt/arm_L0_end_jnt/finger_L0_0_jnt
+    classID: 4
+    script: {fileID: 0}
+  - curve:
+      serializedVersion: 2
+      m_Curve: []
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    attribute: m_LocalEulerAngles.x
+    path: jnt_org/global_C0_jnt_org/global_C0_0_jnt/spine_C0_0_jnt/spine_C0_1_jnt/spine_C0_2_jnt/shoulder_L0_shoulder_jnt/arm_L0_0_jnt/arm_L0_1_jnt/arm_L0_2_jnt/arm_L0_end_jnt/finger_L0_0_jnt
+    classID: 4
+    script: {fileID: 0}
+  - curve:
+      serializedVersion: 2
+      m_Curve: []
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    attribute: m_LocalEulerAngles.z
+    path: jnt_org/global_C0_jnt_org/global_C0_0_jnt/spine_C0_0_jnt/spine_C0_1_jnt/spine_C0_2_jnt/shoulder_R0_shoulder_jnt/arm_R0_0_jnt/arm_R0_1_jnt
+    classID: 4
+    script: {fileID: 0}
+  - curve:
+      serializedVersion: 2
+      m_Curve: []
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    attribute: m_LocalEulerAngles.y
+    path: jnt_org/global_C0_jnt_org/global_C0_0_jnt/spine_C0_0_jnt/spine_C0_1_jnt/spine_C0_2_jnt/shoulder_R0_shoulder_jnt/arm_R0_0_jnt/arm_R0_1_jnt
+    classID: 4
+    script: {fileID: 0}
+  - curve:
+      serializedVersion: 2
+      m_Curve: []
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    attribute: m_LocalEulerAngles.x
+    path: jnt_org/global_C0_jnt_org/global_C0_0_jnt/spine_C0_0_jnt/spine_C0_1_jnt/spine_C0_2_jnt/shoulder_R0_shoulder_jnt/arm_R0_0_jnt/arm_R0_1_jnt
+    classID: 4
+    script: {fileID: 0}
+  - curve:
+      serializedVersion: 2
+      m_Curve: []
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    attribute: m_LocalEulerAngles.z
+    path: jnt_org/global_C0_jnt_org/global_C0_0_jnt/spine_C0_0_jnt/spine_C0_1_jnt/spine_C0_2_jnt/shoulder_R0_shoulder_jnt/arm_R0_0_jnt/arm_R0_1_jnt/arm_R0_2_jnt/arm_R0_end_jnt/finger_R0_0_jnt/finger_R0_1_jnt
+    classID: 4
+    script: {fileID: 0}
+  - curve:
+      serializedVersion: 2
+      m_Curve: []
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    attribute: m_LocalEulerAngles.y
+    path: jnt_org/global_C0_jnt_org/global_C0_0_jnt/spine_C0_0_jnt/spine_C0_1_jnt/spine_C0_2_jnt/shoulder_R0_shoulder_jnt/arm_R0_0_jnt/arm_R0_1_jnt/arm_R0_2_jnt/arm_R0_end_jnt/finger_R0_0_jnt/finger_R0_1_jnt
+    classID: 4
+    script: {fileID: 0}
+  - curve:
+      serializedVersion: 2
+      m_Curve: []
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    attribute: m_LocalEulerAngles.x
+    path: jnt_org/global_C0_jnt_org/global_C0_0_jnt/spine_C0_0_jnt/spine_C0_1_jnt/spine_C0_2_jnt/shoulder_R0_shoulder_jnt/arm_R0_0_jnt/arm_R0_1_jnt/arm_R0_2_jnt/arm_R0_end_jnt/finger_R0_0_jnt/finger_R0_1_jnt
     classID: 4
     script: {fileID: 0}
   - curve:

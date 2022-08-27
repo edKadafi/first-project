@@ -2,6 +2,7 @@ using System;
 using System.Collections;
 using System.Collections.Generic;
 using Unity.Mathematics;
+using UnityEditor.Animations;
 using UnityEngine;
 
 namespace Proiect.Player
@@ -19,13 +20,14 @@ namespace Proiect.Player
         private Rigidbody body;
         private Vector3 velocity;
         private KeyCode jumpKey = KeyCode.Space;
-        private int moveState = 0;
         private bool CanJump = false;
         private float fallVelocity = 0f;
+        private Animator bodyAnimator;
 
         private void Awake()
         {
             body = GetComponent<Rigidbody>();
+            bodyAnimator = body.GetComponentInChildren<Animator>();
         }
 
         void Start()
@@ -53,7 +55,7 @@ namespace Proiect.Player
             direction = new Vector3(playerInput.x, 0f, playerInput.y).normalized;
             if (direction.magnitude >= 0.1f)
             {
-                
+                bodyAnimator.SetBool("PlayRun", true);
                 float targetAngle = Mathf.Atan2(direction.x, direction.z) * Mathf.Rad2Deg + CameraOrient.eulerAngles.y;
                 float angle = Mathf.SmoothDampAngle(this.transform.eulerAngles.y, targetAngle, ref turnSmoothVelocity,
                     turnSmoothTime);
@@ -63,6 +65,10 @@ namespace Proiect.Player
                 body.AddForce(velocity, ForceMode.Acceleration);
                 // _characterController.Move(Time.deltaTime * movementSpeed * moveDir.normalized);
                 // body.velocity += velocity*Time.deltaTime;
+            }
+            else
+            {
+                bodyAnimator.SetBool("PlayRun", false);
             }
             
         }
@@ -125,6 +131,8 @@ namespace Proiect.Player
             {
                 fallVelocity = body.velocity.y;
             }
+
+            
         }
     }
 }
