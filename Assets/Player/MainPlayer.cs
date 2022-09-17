@@ -1,6 +1,7 @@
 using System;
 using System.Collections;
 using System.Collections.Generic;
+using System.Linq;
 using Newtonsoft.Json.Converters;
 using Proiect.System.SaveSystem;
 using UnityEditorInternal;
@@ -98,8 +99,12 @@ namespace Proiect.Player
             color[1] = _player.GetComponentInChildren<SkinnedMeshRenderer>().material.color.g;
             color[2] = _player.GetComponentInChildren<SkinnedMeshRenderer>().material.color.b;
             color[3] = _player.GetComponentInChildren<SkinnedMeshRenderer>().material.color.a;
+
             return color;
+            
         }
+        
+        
     }
 }
 

@@ -1,9 +1,6 @@
-using System;
-using System.Collections;
-using System.Collections.Generic;
 using Proiect.Player;
+using Proiect.Player.DebugUtils;
 using UnityEngine;
-using Object = UnityEngine.Object;
 
 
 namespace Proiect.GamePlay.Inanimates.Cubes
@@ -22,7 +19,7 @@ namespace Proiect.GamePlay.Inanimates.Cubes
         private void OnTriggerEnter(Collider other)
         {
             CubeHandler.paintPlayer(gameObject, other.gameObject);
-            var g = FindObjectOfType<Game>();
+            var g = FindObjectOfType<DebugUtils>();
             g.objects.RemoveAt(g.objects.IndexOf(gameObject.transform));
             DisposeCube();
         }

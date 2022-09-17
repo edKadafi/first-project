@@ -1,6 +1,8 @@
 using System;
 using System.Collections;
 using System.Collections.Generic;
+using System.Threading;
+using Cysharp.Threading.Tasks.Triggers;
 using Unity.Mathematics;
 using UnityEditor.Animations;
 using UnityEngine;
@@ -94,6 +96,7 @@ namespace Proiect.Player
 
         private void OnCollisionEnter(Collision collision)
         {
+            CheckCanEnter(collision);
             CheckFallVelocity();
             fallVelocity = 0f;
         }
@@ -133,6 +136,22 @@ namespace Proiect.Player
             }
 
             
+        }
+
+        private void CheckCanEnter(Collision collision)
+        {
+            if (collision.gameObject.layer == LayerMask.NameToLayer("ColorPass"))
+            {
+                collision.gameObject.GetComponent<BoxCollider>().isTrigger = true;
+            }
+        }
+
+        private void TurnSolid(Collision collision)
+        {
+            if (collision.gameObject.layer == LayerMask.NameToLayer("ColorPass"))
+            {
+                collision.gameObject.GetComponent<BoxCollider>().isTrigger = false;
+            }
         }
     }
 }

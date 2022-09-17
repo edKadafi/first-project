@@ -1,18 +1,15 @@
-using System;
-using System.Collections;
-using System.Collections.Generic;
-using Proiect.Player;
 using Proiect.System.SaveSystem;
+using Proiect.Player.DebugUtils;
 using UnityEngine;
 
 public class Environment : MonoBehaviour
 {
-    private Game _game;
+    private DebugUtils _debugUtils;
     private EnvironmentData _environmentData;
 
     private void Start()
     {
-        _game = FindObjectOfType<Game>();
+        _debugUtils = FindObjectOfType<DebugUtils>();
     }
 
     public void LoadEnvironment()
@@ -39,10 +36,10 @@ public class Environment : MonoBehaviour
             Vector3 tempPosition = new Vector3(_environmentData.positions[i][0], _environmentData.positions[i][1], _environmentData.positions[i][2]);
             Quaternion tempRotation = new Quaternion(_environmentData.rotations[i][0], _environmentData.rotations[i][1], _environmentData.rotations[i][2], _environmentData.rotations[i][3]);
             aux.transform.SetPositionAndRotation(tempPosition, tempRotation);
-            _game.objects.Add(aux.transform);
+            _debugUtils.objects.Add(aux.transform);
             Destroy(aux);
         }
         
-        _game.CreateList(_game.objects, _environmentData.colors);
+        _debugUtils.CreateList(_debugUtils.objects, _environmentData.colors);
     }
 }

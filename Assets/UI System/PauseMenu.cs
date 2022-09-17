@@ -1,4 +1,5 @@
 using Proiect.Player;
+using Proiect.Player.DebugUtils;
 using Proiect.System.SaveSystem;
 using UnityEngine;
 using UnityEngine.SceneManagement;
@@ -9,7 +10,7 @@ namespace Proiect.UI
     {
         [SerializeField] private GameObject _pauseMenu;
         
-        private Game _game;
+        private DebugUtils _debugUtils;
         private PlayerMovement _playerMovement;
 
         public void Back()
@@ -21,7 +22,7 @@ namespace Proiect.UI
         public void SaveGame()
         {
             SaveSystem.SavePlayer(PlayerManager.Player.GetComponent<PlayerMovement>());
-            SaveSystem.SaveEnvironment(_game.objects);
+            SaveSystem.SaveEnvironment(_debugUtils.objects);
         }
 
         public void LoadGame()
@@ -33,9 +34,9 @@ namespace Proiect.UI
         }
         public void NewGame()
         {
-            if (_game != null)
+            if (_debugUtils != null)
             {
-                _game.BeginNewGame();
+                _debugUtils.BeginNewGame();
                 _pauseMenu.gameObject.SetActive(false);
             }
         }
@@ -43,7 +44,7 @@ namespace Proiect.UI
         // Start is called before the first frame update
         void Start()
         {
-            _game = FindObjectOfType<Game>();
+            _debugUtils = FindObjectOfType<DebugUtils>();
             _playerMovement = FindObjectOfType<PlayerMovement>();
         }
     }
