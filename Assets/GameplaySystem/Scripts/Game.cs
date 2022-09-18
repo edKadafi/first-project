@@ -11,7 +11,6 @@ namespace Proiect.GamePlay
         [SerializeField] private GameObject game;
         [SerializeField] private GameObject environment;
         [SerializeField] private GameObject player;
-        [SerializeField] private UI.UI ui;
 
         private void Start()
         {
@@ -31,8 +30,6 @@ namespace Proiect.GamePlay
             Instantiate(game);
             game.tag = "Game";
             InstantiatePlayer();
-            Instantiate(ui);
-            DontDestroyOnLoad(ui);
         }
 
         public void InstantiatePlayer()
