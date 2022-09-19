@@ -64,8 +64,20 @@ namespace Proiect.UI
 
         public void EnableHealthBar()
         {
-            Instantiate(healthBar);
-            healthBar.gameObject.SetActive(true);
+            //Instantiating the health bar when it is enabled
+            var hbinstance = Instantiate(healthBar);
+            hbinstance.SetParent(this.transform.GetChild(1));
+            hbinstance.gameObject.SetActive(true);
+        }
+
+        public void DisableHealthBar()
+        {
+            
+        }
+
+        public void InstantiateUI()
+        {
+            Instantiate(this);
         }
     }
 }

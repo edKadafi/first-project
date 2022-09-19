@@ -1,17 +1,17 @@
+using Proiect.GamePlay;
 using Proiect.UI;
 using UnityEngine;
 
 
 public class AppScope : MonoBehaviour
 {
+    [SerializeField] private Game game;
     [SerializeField] private UI ui;
-    void Start()
+    private void Awake()
     {
-        
-    }
-
-    void Update()
-    {
-        
+        var uiinstance = Instantiate(ui);
+        DontDestroyOnLoad(uiinstance);
+        var gameinstance = Instantiate(game);
+        gameinstance.transform.SetParent(this.transform);
     }
 }
