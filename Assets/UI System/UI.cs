@@ -13,6 +13,7 @@ namespace Proiect.UI
         public static UI System { get; private set; }
         [SerializeField] private Transform pauseMenu;
         [SerializeField] private Transform healthBar;
+        private static Transform _healthBarInstance;
         
         
         private Transform pmenu;
@@ -65,14 +66,13 @@ namespace Proiect.UI
         public void EnableHealthBar()
         {
             //Instantiating the health bar when it is enabled
-            var hbinstance = Instantiate(healthBar);
-            hbinstance.SetParent(this.transform.GetChild(1));
-            hbinstance.gameObject.SetActive(true);
+            _healthBarInstance = Instantiate(healthBar, this.transform.GetChild(1), true);
+            _healthBarInstance.gameObject.SetActive(true);
         }
 
         public void DisableHealthBar()
         {
-            
+            Destroy(_healthBarInstance);
         }
 
         public void InstantiateUI()
