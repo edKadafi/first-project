@@ -1,6 +1,7 @@
 using System;
 using System.Collections;
 using System.Collections.Generic;
+using Proiect.Game.States;
 using Proiect.Player;
 using UnityEngine;
 
@@ -14,17 +15,17 @@ namespace Proiect.GamePlay
 
         private void Start()
         {
-            GameStateManager.Initialize();
-            if (GameStateManager.GetCurrentState() != null)
+            if (GameStateManager.CurrentState != null)
             {
-                Debug.Log("[GameStateManager] Game State = "+ GameStateManager.GetCurrentState().GetName());
+                Debug.Log("[GameStateManager] Game State = " + GameStateManager.CurrentState.StateName);
             }
-            GameStateManager.InitializeState(2);
-            if (GameStateManager.GetCurrentState() != null)
+
+            GameStateManager.TransitionTo("GamePlay");
+            if (GameStateManager.CurrentState != null)
             {
-                Debug.Log("[GameStateManager] Game State = "+ GameStateManager.GetCurrentState().GetName());
+                Debug.Log("[GameStateManager] Game State = " + GameStateManager.CurrentState.StateName);
             }
-            
+
             Instantiate(environment);
             environment.tag = "Environment";
             Instantiate(game);
@@ -40,4 +41,3 @@ namespace Proiect.GamePlay
         }
     }
 }
-

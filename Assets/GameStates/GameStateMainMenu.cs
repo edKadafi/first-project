@@ -8,8 +8,10 @@ namespace Proiect.Game.States
 {
     public class GameStateMainMenu : IGameState
     {
+        public string StateName { get; } = "MainMenu";
         public bool isRunning { get; }
         public bool isSuspended { get; }
+
         public void Suspend()
         {
             throw new NotImplementedException();
@@ -24,6 +26,10 @@ namespace Proiect.Game.States
         {
             
         }
+
+        public void StateExit()
+        {
+            throw new NotImplementedException();
+        }
     }
 }
-

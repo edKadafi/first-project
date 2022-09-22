@@ -1,6 +1,7 @@
 using System;
 using System.Collections;
 using System.Collections.Generic;
+using Proiect.Game.States;
 using Proiect.GamePlay;
 using UnityEngine;
 using UnityEngine.EventSystems;
@@ -14,9 +15,10 @@ namespace Proiect.UI
         [SerializeField] private Transform pauseMenu;
         [SerializeField] private Transform healthBar;
         private static Transform _healthBarInstance;
-        
-        
+
+
         private Transform pmenu;
+
         private void Awake()
         {
             //Checking to see if any other instances of the singleton exist so that we only ever have one at any time
@@ -28,36 +30,31 @@ namespace Proiect.UI
             {
                 System = this;
             }
+
             if (FindObjectOfType<EventSystem>() == null)
             {
                 var eventSystem = new GameObject("EventSystem", typeof(EventSystem), typeof(StandaloneInputModule));
             }
+
             pmenu = Instantiate(pauseMenu);
             pmenu.SetParent(this.transform);
             pmenu.gameObject.SetActive(false);
             Debug.Log("Awake: " + pmenu.gameObject.activeSelf);
         }
-    
+
         void Update()
         {
             if (Input.GetKeyDown(KeyCode.Escape))
             {
-                
                 if (pmenu != null)
                 {
                     if (pmenu.gameObject.activeSelf == true)
                     {
                         pmenu.gameObject.SetActive(false);
-                        GameStateManager.ChangeState(2);
-                        Debug.Log("[GameStateManager] Game State = "+GameStateManager.GetCurrentState().GetName());
-                        Debug.Log("[UI] Pause Menu State: "+pmenu.gameObject.activeSelf);
                     }
                     else
                     {
                         pmenu.gameObject.SetActive(true);
-                        GameStateManager.ChangeState(1);
-                        Debug.Log("[GameStateManager] Game State = "+GameStateManager.GetCurrentState().GetName());
-                        Debug.Log("[UI] Pause Menu State: "+pmenu.gameObject.activeSelf);
                     }
                 }
             }
@@ -65,20 +62,19 @@ namespace Proiect.UI
 
         public void EnableHealthBar()
         {
-            //Instantiating the health bar when it is enabled
-            _healthBarInstance = Instantiate(healthBar, this.transform.GetChild(1), true);
             _healthBarInstance.gameObject.SetActive(true);
         }
 
         public void DisableHealthBar()
         {
-            Destroy(_healthBarInstance);
+            _healthBarInstance.gameObject.SetActive(false);
         }
 
-        public void InstantiateUI()
+        public void InstantiateHealthBar()
         {
-            Instantiate(this);
+            //Instantiating the health bar when it is enabled
+            _healthBarInstance = Instantiate(healthBar);
+            _healthBarInstance.transform.SetParent(this.transform);
         }
     }
 }
-

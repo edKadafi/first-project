@@ -13,6 +13,7 @@ public class HealthBar : MonoBehaviour
     {
         recTransf = GetComponentInParent<RectTransform>();
         player = PlayerManager.Player;
+        Debug.Log("[HealthBar] "+ player.gameObject);
     }
 
     // Update is called once per frame

@@ -18,7 +18,7 @@ namespace Proiect.Player
         {
             _player = gameObject;
             PlayerManager.SetPlayer(_player.GetComponent<MainPlayer>());
-            Debug.Log(_player);
+            Debug.Log("[MainPlayer] Start " + _player);
         }
         
         public void LoadPlayer()
