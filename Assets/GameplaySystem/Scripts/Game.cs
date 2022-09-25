@@ -35,8 +35,8 @@ namespace Proiect.GamePlay
 
         public void InstantiatePlayer()
         {
-            Instantiate(player);
-            PlayerManager.Init(player.GetComponent<MainPlayer>());
+            var _instancePlayer = Instantiate(player);
+            PlayerManager.Init(_instancePlayer.GetComponent<MainPlayer>());
             player.tag = "Player";
         }
     }
