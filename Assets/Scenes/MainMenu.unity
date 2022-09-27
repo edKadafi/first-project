@@ -97,8 +97,8 @@ LightmapSettings:
     m_ExportTrainingData: 0
     m_TrainingDataDestination: TrainingData
     m_LightProbeSampleCountMultiplier: 4
-  m_LightingDataAsset: {fileID: 0}
-  m_LightingSettings: {fileID: 0}
+  m_LightingDataAsset: {fileID: 112000000, guid: a83d2aa4c2356064398ed1eec9ac78f6, type: 2}
+  m_LightingSettings: {fileID: 4890085278179872738, guid: 18e3b853b5018d348bbe976b11ab89c5, type: 2}
 --- !u!196 &4
 NavMeshSettings:
   serializedVersion: 2
@@ -578,6 +578,7 @@ GameObject:
   - component: {fileID: 651660746}
   - component: {fileID: 651660745}
   - component: {fileID: 651660744}
+  - component: {fileID: 651660747}
   m_Layer: 5
   m_Name: New Game
   m_TagString: Untagged
@@ -648,7 +649,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 651660745}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 651660747}
+        m_TargetAssemblyTypeName: MainMenu, Assembly-CSharp
+        m_MethodName: NewGame
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &651660745
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -687,6 +700,18 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 651660742}
   m_CullTransparentMesh: 1
+--- !u!114 &651660747
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 651660742}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8ab55f51437c95e4ca01c642d624d79a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &696872146
 GameObject:
   m_ObjectHideFlags: 0
@@ -903,6 +928,7 @@ GameObject:
   - component: {fileID: 1126778245}
   - component: {fileID: 1126778244}
   - component: {fileID: 1126778243}
+  - component: {fileID: 1126778246}
   m_Layer: 5
   m_Name: Exit
   m_TagString: Untagged
@@ -973,7 +999,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 1126778244}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 1126778246}
+        m_TargetAssemblyTypeName: MainMenu, Assembly-CSharp
+        m_MethodName: ExitGame
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &1126778244
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1012,6 +1050,18 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1126778241}
   m_CullTransparentMesh: 1
+--- !u!114 &1126778246
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1126778241}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8ab55f51437c95e4ca01c642d624d79a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1168456595
 GameObject:
   m_ObjectHideFlags: 0
@@ -1023,8 +1073,9 @@ GameObject:
   - component: {fileID: 1168456596}
   - component: {fileID: 1168456598}
   - component: {fileID: 1168456597}
+  - component: {fileID: 1168456599}
   m_Layer: 5
-  m_Name: Image
+  m_Name: MainMenuPopup
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1049,8 +1100,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 0, y: 0}
-  m_SizeDelta: {x: 100, y: 100}
+  m_AnchoredPosition: {x: -0.0000021458, y: 0.0000038147}
+  m_SizeDelta: {x: 101.2596, y: 86.4594}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1168456597
 MonoBehaviour:
@@ -1090,3 +1141,15 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1168456595}
   m_CullTransparentMesh: 1
+--- !u!114 &1168456599
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1168456595}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8ab55f51437c95e4ca01c642d624d79a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 

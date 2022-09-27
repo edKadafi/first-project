@@ -40,6 +40,11 @@ namespace Proiect.UI
                 _pauseMenu.gameObject.SetActive(false);
             }
         }
+
+        public void MainMenu()
+        {
+            SceneManager.LoadScene("Scenes/MainMenu", LoadSceneMode.Single);
+        }
     
         // Start is called before the first frame update
         void Start()
