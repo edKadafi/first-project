@@ -31,11 +31,6 @@ namespace Proiect.UI
                 System = this;
             }
 
-            if (FindObjectOfType<EventSystem>() == null)
-            {
-                var eventSystem = new GameObject("EventSystem", typeof(EventSystem), typeof(StandaloneInputModule));
-            }
-
             pmenu = Instantiate(pauseMenu);
             pmenu.SetParent(this.transform);
             pmenu.gameObject.SetActive(false);
