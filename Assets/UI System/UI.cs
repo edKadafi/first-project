@@ -18,6 +18,7 @@ namespace Proiect.UI
 
 
         private Transform pmenu;
+        private Transform hbar;
 
         private void Awake()
         {
@@ -31,6 +32,7 @@ namespace Proiect.UI
                 System = this;
             }
 
+            InstantiateHealthBar();
             pmenu = Instantiate(pauseMenu);
             pmenu.SetParent(this.transform);
             pmenu.gameObject.SetActive(false);
@@ -57,7 +59,12 @@ namespace Proiect.UI
 
         public void EnableHealthBar()
         {
+            if (_healthBarInstance == null)
+            {
+                InstantiateHealthBar();
+            }
             _healthBarInstance.gameObject.SetActive(true);
+            _healthBarInstance.Find("HealthBarFrame").Find("Bar").GetComponent<HealthBar>().SetPlayer();
         }
 
         public void DisableHealthBar()
@@ -69,6 +76,7 @@ namespace Proiect.UI
         {
             //Instantiating the health bar when it is enabled
             _healthBarInstance = Instantiate(healthBar);
+            _healthBarInstance.gameObject.SetActive(false);
             _healthBarInstance.transform.SetParent(this.transform);
         }
     }

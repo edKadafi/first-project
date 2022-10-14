@@ -1,3 +1,4 @@
+using Proiect.Game.States;
 using Proiect.GamePlay;
 using Proiect.UI;
 using UnityEngine;
@@ -17,5 +18,6 @@ public class AppScope : MonoBehaviour
         {
             UI.System.transform.Find("MainMenuPopup").gameObject.SetActive(true);
         }
+        GameStateManager.TransitionTo("MainMenu");
     }
 }

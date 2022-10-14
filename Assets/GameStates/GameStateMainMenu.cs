@@ -29,7 +29,7 @@ namespace Proiect.Game.States
 
         public void StateExit()
         {
-            throw new NotImplementedException();
+            
         }
     }
 }

@@ -14,13 +14,11 @@ namespace Proiect.Game.States
         {
             _gameplay = new GameStateGameplay();
             _mainMenu = new GameStateMainMenu();
-            CurrentState = _gameplay;
-            UI.UI.System.InstantiateHealthBar();
-            CurrentState.StateEnter();
+            CurrentState = _mainMenu;
             _statesDict = new Dictionary<string, IGameState>() { { "MainMenu", _mainMenu }, { "GamePlay", _gameplay } };
             
         }
-
+        
         public static void TransitionTo(string newStateName)
         {
             Debug.Log("[GameStateManager] Transitioning: " + CurrentState.StateName + " - " + _statesDict[newStateName].StateName);

@@ -121,7 +121,6 @@ namespace Proiect.Player
 
         private void CheckFallVelocity()
         {
-            Debug.Log(fallVelocity);
             if (fallVelocity <= -27f)
             {
                 PlayerManager.DamagePlayer(15);

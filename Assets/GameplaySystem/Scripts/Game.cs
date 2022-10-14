@@ -15,22 +15,23 @@ namespace Proiect.GamePlay
 
         private void Start()
         {
-            if (GameStateManager.CurrentState != null)
-            {
-                Debug.Log("[GameStateManager] Game State = " + GameStateManager.CurrentState.StateName);
-            }
-
-            GameStateManager.TransitionTo("GamePlay");
-            if (GameStateManager.CurrentState != null)
-            {
-                Debug.Log("[GameStateManager] Game State = " + GameStateManager.CurrentState.StateName);
-            }
+            // if (GameStateManager.CurrentState != null)
+            // {
+            //     Debug.Log("[GameStateManager] Game State = " + GameStateManager.CurrentState.StateName);
+            // }
+            //
+            // GameStateManager.TransitionTo("GamePlay");
+            // if (GameStateManager.CurrentState != null)
+            // {
+            //     Debug.Log("[GameStateManager] Game State = " + GameStateManager.CurrentState.StateName);
+            // }
 
             Instantiate(environment);
             environment.tag = "Environment";
             Instantiate(game);
             game.tag = "Game";
             InstantiatePlayer();
+            GameStateManager.TransitionTo("GamePlay");
         }
 
         public void InstantiatePlayer()
