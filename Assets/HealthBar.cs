@@ -44,5 +44,6 @@ public class HealthBar : MonoBehaviour
     {
         player = PlayerManager.Player;
         Debug.Log("[HealthBar] Player is: "+PlayerManager.Player);
+        Debug.Log("[HealthBar] Health Bar is "+this);
     }
 }

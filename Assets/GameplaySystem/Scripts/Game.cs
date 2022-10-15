@@ -39,6 +39,7 @@ namespace Proiect.GamePlay
             var _instancePlayer = Instantiate(player);
             PlayerManager.Init(_instancePlayer.GetComponent<MainPlayer>());
             player.tag = "Player";
+            UI.UI.System.EnableHealthBar();
         }
     }
 }

@@ -21,7 +21,6 @@ namespace Proiect.Game.States
         public void StateEnter()
         {
             isRunning = true;
-            UI.UI.System.EnableHealthBar();
         }
 
         public void StateExit()

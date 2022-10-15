@@ -65,6 +65,7 @@ namespace Proiect.UI
             }
             _healthBarInstance.gameObject.SetActive(true);
             _healthBarInstance.Find("HealthBarFrame").Find("Bar").GetComponent<HealthBar>().SetPlayer();
+            _healthBarInstance.Find("HealthBarFrame").Find("Bar").GetComponent<HealthBar>().ChangeActiveState(true);
         }
 
         public void DisableHealthBar()
