@@ -22,8 +22,6 @@ namespace Proiect.Player
         public static void DamagePlayer(float dmg)
         {
             Player.LowerHp(dmg);
-            Debug.Log("[PlayerManager] Player is "+Player);
-            Debug.Log(Player.GetHp() + " " + Player.gameObject);
         }
 
         public static void HealPlayer(float heal)
